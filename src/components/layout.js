@@ -8,12 +8,14 @@
 import React from "react"
 import PropTypes from "prop-types"
 // import { useStaticQuery, graphql } from "gatsby"
+import PageTransition from "gatsby-plugin-page-transitions"
 import useSticky from "../hooks/useSticky"
 
 import TopNavbar from "./navbar"
 // import Header from "./header"
 import Banner from "./banner"
 import "./layout.scss"
+import Footer from "./footer"
 
 const Layout = ({ children }) => {
   const { isSticky } = useSticky()
@@ -33,24 +35,18 @@ const Layout = ({ children }) => {
       {/* <Header siteTitle={data.site.siteMetadata?.title || `Title`} /> */}
       <Banner />
       <TopNavbar sticky={isSticky} />
-      <div
-        style={{
-          margin: `4rem auto 1rem`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
-        <main>{children}</main>
-        <footer
+      <PageTransition transitionTime={1000}>
+        <div
           style={{
-            marginTop: `2rem`,
+            margin: `.2rem auto`,
+            maxWidth: 1400,
+            padding: `0 0.0875rem 1.45rem`,
           }}
         >
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
-        </footer>
-      </div>
+          <main>{children}</main>
+        </div>
+      </PageTransition>
+      <Footer />
     </>
   )
 }
