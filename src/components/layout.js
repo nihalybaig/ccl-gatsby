@@ -7,13 +7,18 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+// import { useStaticQuery, graphql } from "gatsby"
+import useSticky from "../hooks/useSticky"
 
-import Header from "./header"
-import "./layout.css"
+import TopNavbar from "./navbar"
+// import Header from "./header"
+import Banner from "./banner"
+import "./layout.scss"
 
 const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
+  const { isSticky } = useSticky()
+
+  /* const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
         siteMetadata {
@@ -21,22 +26,26 @@ const Layout = ({ children }) => {
         }
       }
     }
-  `)
+  `) */
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
+      {/* <Header siteTitle={data.site.siteMetadata?.title || `Title`} /> */}
+      <Banner />
+      <TopNavbar sticky={isSticky} />
       <div
         style={{
-          margin: `0 auto`,
+          margin: `4rem auto 1rem`,
           maxWidth: 960,
           padding: `0 1.0875rem 1.45rem`,
         }}
       >
         <main>{children}</main>
-        <footer style={{
-          marginTop: `2rem`
-        }}>
+        <footer
+          style={{
+            marginTop: `2rem`,
+          }}
+        >
           © {new Date().getFullYear()}, Built with
           {` `}
           <a href="https://www.gatsbyjs.com">Gatsby</a>
