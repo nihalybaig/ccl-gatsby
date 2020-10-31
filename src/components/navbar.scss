@@ -2,17 +2,21 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0.5rem 1.2rem !important;
-  position: fixed !important;
+  padding: 1.5rem 1.2rem !important;
   z-index: 1;
   width: 100%;
   transition: 0.4s;
 }
 
+.navbar--container-sticky {
+  position: sticky;
+  top: 0px;
+}
+
 .navbar-sticky {
   padding: 0rem 1.2rem !important;
-  margin-top: -1.8rem;
-  box-shadow: 1px 1px 1px rgb(201, 201, 201);
+  // margin-top: -1.8rem;
+  // box-shadow: 1px 1px 1px rgb(201, 201, 201);
   transition: 0.4s;
   z-index: 1;
   background-color: white;
@@ -40,14 +44,21 @@
   list-style: none;
 }
 
-.navbar--link-item {
-  margin: 0.4rem 1rem 0 0;
+.nav--link-item {
+  margin: 0.4rem 0 0 1rem;
   padding: 0 0.3rem;
   cursor: pointer;
   color: darkblue;
   &:hover {
-    text-decoration: none;
+    text-decoration: none !important;
   }
+}
+
+.navbar--link-item:hover {
+  text-decoration: none;
+}
+.selected {
+  background-color: rebeccapurple;
 }
 
 @keyframes moveDown {
