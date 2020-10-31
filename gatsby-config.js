@@ -17,6 +17,7 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-plugin-sass`,
     "gatsby-plugin-page-transitions",
+    "gatsby-plugin-scroll-reveal",
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
