@@ -2,7 +2,7 @@ import React from "react"
 // import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-// import Image from "../components/image"
+import Image from "../components/image"
 import SEO from "../components/seo"
 import HomePageCarousel from "../components/HomePageCarousel"
 import FadingDiv from "../components/FadingDiv"
@@ -26,11 +26,11 @@ const IndexPage = () => (
         <h1>Hi customers</h1>
         <p>Welcome to our new website.</p>
         <p>Now go explore something great.</p>
-        {/* <div data-sal="slide-right" data-sal-delay="300" data-sal-easing="ease">
-        <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-          <Image alt="dsas" filename="gatsby-astronaut.png" />
+        <div data-sal="slide-right" data-sal-delay="300" data-sal-easing="ease">
+          <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+            <Image alt="dsas" filename="gatsby-astronaut.png" />
+          </div>
         </div>
-      </div> */}
       </div>
       <div className="m-4 p-2">
         <hr />
