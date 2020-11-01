@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react"
 import { useTransition, animated } from "react-spring"
-import "./fading.css"
+import "./fadingdiv.scss"
 
 /* const pages = [
   ({ style }) => (
