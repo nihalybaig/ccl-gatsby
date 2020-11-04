@@ -1,16 +1,27 @@
 import React from "react"
 import { Link } from "gatsby"
-
+import ContactForm from '../components/ContactForm'
+import Map from '../components/Map'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+const location = {
+  address: '1600 Amphitheatre Parkway, Mountain View, california.',
+  lat: 37.42216,
+  lng: -122.08427,
+} // our location object from earlier
 
-const SecondPage = () => (
+const Contact = () => (
   <Layout>
     <SEO title="Page two" />
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
+        <section id="contactUs" >
+         
+            
+            <ContactForm></ContactForm>
+         
+    </section>
+    <Map  location={location} zoomLevel={17} /> 
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
 
-export default SecondPage
+export default Contact
