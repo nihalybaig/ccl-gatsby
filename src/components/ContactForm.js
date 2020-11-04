@@ -21,8 +21,8 @@ export default function ConatactForm() {
                     <div className="well bg-light px-2 py-2 ">
                    
                         <form>
-                        <fieldset class="border p-2">
-   <legend  class="w-auto">Contact Form</legend>
+                        <fieldset className="border p-2">
+   <legend  className="w-auto">Contact Form</legend>
 
                         <div className="row">
                             <div className="col-md-6">
