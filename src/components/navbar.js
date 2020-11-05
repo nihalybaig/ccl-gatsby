@@ -1,7 +1,7 @@
 import React from "react"
 import "./navbar.scss"
 import { Link } from "gatsby"
-import logo from "../images/logo.svg"
+import logo from "../images/CCL logo.jpg"
 import { Nav, Navbar } from "react-bootstrap"
 
 const pages = [
@@ -54,7 +54,11 @@ const TopNavbar = ({ sticky }) => (
           <img
             src={logo}
             alt="CCL"
-            style={{ width: "88px" }}
+            style={
+              sticky
+                ? { width: "70px", height: "35px" }
+                : { width: "140px", height: "70px" }
+            }
             className={
               sticky ? "navbar--logo navbar--logo--sticky" : "navbar--logo"
             }

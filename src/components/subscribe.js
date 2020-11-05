@@ -25,7 +25,7 @@ const Subscribe = () => {
           maxWidth: 960,
         }}
       >
-        <div className="col-md-6 col-lg-12">
+        <div className="col-12">
           <Form onSubmit={handleSubmit}>
             <Row className="justify-content-md-center align-items-center">
               <Form.Label column sm={3}>
