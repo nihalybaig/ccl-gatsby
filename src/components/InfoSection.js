@@ -9,7 +9,7 @@ export default function InfoSection() {
       </div>
       <div className="row">
         <div className="col-md-6 m-auto">
-          <Image alt="first image" filename="1 (2).jpg" />
+          <Image alt="first image" filename="site-images/1 (2).jpg" />
         </div>
         <div className="col-md-6 text-justify">
           <p>

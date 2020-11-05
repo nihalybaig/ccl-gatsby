@@ -25,12 +25,15 @@ const IndexPage = () => (
         <hr />
       </div>
       <div className="m-2 p-2">
-        <h1>Hi customers</h1>
-        <p>Welcome to our new website.</p>
+        <h1>Continental Logistics Services</h1>
+        <p>Established in 2016</p>
         <p>Now go explore something great.</p>
         <div data-sal="slide-right" data-sal-delay="300" data-sal-easing="ease">
           <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-            <Image alt="dsas" filename="gatsby-astronaut.png" />
+            <Image
+              alt="dsas"
+              filename="optimizing-images/gatsby-astronaut.png"
+            />
           </div>
         </div>
       </div>

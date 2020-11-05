@@ -8,7 +8,7 @@ export default function HomePageCarousel() {
       <Carousel>
         <Carousel.Item>
           <div className="d-block w-100">
-            <Image alt="first image" filename="0.jpg" />
+            <Image alt="first image" filename="carousel-images/0.jpg" />
           </div>
           <Carousel.Caption>
             <h3>First slide label</h3>
@@ -17,7 +17,7 @@ export default function HomePageCarousel() {
         </Carousel.Item>
         <Carousel.Item>
           <div className="d-block w-100">
-            <Image alt="first image" filename="1.jpg" />
+            <Image alt="first image" filename="carousel-images/1.jpg" />
           </div>
 
           <Carousel.Caption>
@@ -27,7 +27,7 @@ export default function HomePageCarousel() {
         </Carousel.Item>
         <Carousel.Item>
           <div className="d-block w-100">
-            <Image alt="first image" filename="3.jpg" />
+            <Image alt="first image" filename="carousel-images/3.jpg" />
           </div>
 
           <Carousel.Caption>
