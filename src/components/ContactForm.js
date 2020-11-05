@@ -28,9 +28,21 @@ export default function ContactForm() {
                           type="text"
                           className="form-control"
                           id="name"
-                          placeholder="Enter name"
+                          placeholder="Enter Name"
                           required="required"
                         />
+                      </div>
+                      <div className="form-group">
+                        <label htmlFor="phone">Phone</label>
+                        <div className="input-group">
+                          <input
+                            type="phone"
+                            className="form-control"
+                            id="phone"
+                            placeholder="Enter Phone Number"
+                            required="required"
+                          />
+                        </div>
                       </div>
                       <div className="form-group">
                         <label htmlFor="email">Email Address</label>
@@ -39,7 +51,7 @@ export default function ContactForm() {
                             type="email"
                             className="form-control"
                             id="email"
-                            placeholder="Enter email"
+                            placeholder="Enter Email Address"
                             required="required"
                           />
                         </div>

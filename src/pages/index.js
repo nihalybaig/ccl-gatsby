@@ -9,7 +9,6 @@ import FadingDiv from "../components/FadingDiv"
 import SlideBox from "../components/SlideBox"
 import { Col, Row } from "react-bootstrap"
 import IconTileRow from "../components/iconcard"
-import InfoSection from "../components/InfoSection"
 
 const IndexPage = () => (
   <Layout>
@@ -48,8 +47,6 @@ const IndexPage = () => (
           <SlideBox />
         </Col>
       </Row>
-      <InfoSection />
-
       <IconTileRow />
       {/* <Link to="/gallery/">Go to page 2</Link> <br />
       <Link to="/using-typescript/">Go to "Using TypeScript"</Link> */}

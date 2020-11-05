@@ -1,13 +1,14 @@
 import React from "react"
+import { Row } from "react-bootstrap"
 import Image from "./image"
 
-export default function InfoSection() {
+export default function InfoSection({ reverse = false }) {
   return (
     <>
       <div className="col-12 pb-4">
         <h2 className="text-center">Food</h2>
       </div>
-      <div className="row">
+      <Row className={`${reverse ? `flex-row-reverse` : ``}`}>
         <div className="col-md-6 m-auto">
           <Image alt="first image" filename="site-images/1 (2).jpg" />
         </div>
@@ -31,7 +32,10 @@ export default function InfoSection() {
             Popcorn, Olives &amp; Pickled Snacks
           </p>
         </div>
-      </div>
+      </Row>
+      {/* <div className={`row ${reverse ? `reverse` : ``}`}> */}
+
+      {/* </div> */}
     </>
   )
 }
