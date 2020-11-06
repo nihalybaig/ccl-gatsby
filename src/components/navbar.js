@@ -32,9 +32,7 @@ const pages = [
 ]
 
 const TopNavbar = ({ sticky }) => (
-  <div
-    className={`${sticky ? "bg-white navbar--container-sticky" : "bg-white"}`}
-  >
+  <div className={sticky ? "bg-white navbar--container-sticky" : "bg-white"}>
     <Navbar
       expand="lg"
       collapseOnSelect

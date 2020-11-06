@@ -5,7 +5,7 @@ import "./breadcrumb.scss"
 
 export default function BreadcrumbComponent({ current = "" }) {
   return (
-    <div className="background-1 p-lg-2">
+    <div className="background-1 p-lg-2 mb-5">
       <div style={{ maxWidth: 960, margin: "0 auto" }}>
         <Breadcrumb>
           <Breadcrumb.Item>

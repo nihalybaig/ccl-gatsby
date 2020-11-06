@@ -3,13 +3,17 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import BreadcrumbComponent from "../components/Breadcrumb"
 
 const SecondPage = () => (
   <Layout>
-    <SEO title="Page two" />
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
+    <SEO title="Careers" />
+    <BreadcrumbComponent current="Careers" />
+    <div style={{ maxWidth: 960, margin: "0 auto" }}>
+      <h1>Hi from the second page</h1>
+      <p>Welcome to page 2</p>
+      <Link to="/">Go back to the homepage</Link>
+    </div>
   </Layout>
 )
 

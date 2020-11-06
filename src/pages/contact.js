@@ -4,11 +4,12 @@ import ContactForm from "../components/ContactForm"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import BreadcrumbComponent from "../components/Breadcrumb"
 
 const Contact = () => (
   <Layout>
-    <SEO title="Page two" />
-
+    <SEO title="Contact Us" />
+    <BreadcrumbComponent current="Contact Us" />
     <div
       style={{
         maxWidth: 960,

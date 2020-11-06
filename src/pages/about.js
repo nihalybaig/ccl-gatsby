@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Image from "../components/image"
 import TeamDetails from "../components/TeamDetails"
+import BreadcrumbComponent from "../components/Breadcrumb"
 const vision = [
   "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   "Nullam eleifend ex velit, non tincidunt ex suscipit non.",
@@ -21,6 +22,7 @@ const mission = [
 const About = () => (
   <Layout>
     <SEO title="About Us" />
+    <BreadcrumbComponent current="About Us" />
     <TeamDetails />
     <Container>
       <Row>
