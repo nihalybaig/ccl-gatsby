@@ -38,9 +38,10 @@ const Layout = ({ children }) => {
       <PageTransition transitionTime={1000}>
         <div
           style={{
-            margin: `.2rem auto`,
+            minHeight: "100vh",
+            /* margin: `.2rem auto`,
             maxWidth: 1400,
-            padding: `0 0.0875rem 1.45rem`,
+            padding: `0 0.0875rem 1.45rem`, */
           }}
         >
           <main>{children}</main>
