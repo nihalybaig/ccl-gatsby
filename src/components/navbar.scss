@@ -12,6 +12,7 @@
   z-index: 100;
   position: sticky;
   top: 0px;
+  box-shadow: 0px 30px 30px 0px rgba(138, 155, 165, 0.15);
 }
 
 .navbar-sticky {
@@ -21,7 +22,7 @@
   transition: 0.4s;
   z-index: 1;
   background-color: white;
-  box-shadow: 0 10px 30px 0 rgba(138, 155, 165, 0.15);
+  // box-shadow: 0 10px 30px 0 rgba(138, 155, 165, 0.15);
   /* animation: moveDown 0.5s ease-in-out; */
 }
 
