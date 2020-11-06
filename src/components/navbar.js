@@ -33,10 +33,9 @@ const pages = [
 
 const TopNavbar = ({ sticky }) => (
   <div
-    className={`${sticky ? "bg-light navbar--container-sticky" : "bg-light"}`}
+    className={`${sticky ? "bg-white navbar--container-sticky" : "bg-white"}`}
   >
     <Navbar
-      bg="light"
       expand="lg"
       collapseOnSelect
       className={`navbar im-container ${
