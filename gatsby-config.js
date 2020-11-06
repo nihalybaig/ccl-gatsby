@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Continental Company Ltd`,
+    description: `Continental Logistic offers a full array of services that Will help you solve all of your logistic challenges throughout the Kingdom of Saudi Arabia.`,
+    author: `@nihalybaig`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

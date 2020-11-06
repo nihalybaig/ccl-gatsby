@@ -17,6 +17,7 @@ const mission = [
   "Lorem ipsum dolor siewreerrt amet, consectetur adipiscing elit.",
   "Nullam eleifend ex velierr2errt, non tincidunt ex suscipit non.",
 ]
+
 const About = () => (
   <Layout>
     <SEO title="About Us" />
