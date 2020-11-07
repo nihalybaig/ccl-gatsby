@@ -6,6 +6,7 @@ import SEO from "../components/seo"
 import TeamDetails from "../components/TeamDetails"
 import InfoSection from "../components/InfoSection"
 import BreadcrumbComponent from "../components/Breadcrumb"
+import { Divider } from "../components/CommonComponents"
 const About = () => (
   <Layout>
     <SEO title="About Us" />
@@ -23,8 +24,9 @@ const About = () => (
             <TeamDetails />
           </Col>
         </Row>
+        <Divider />
         <Row>
-          <Col lg={12} className="py-2">
+          <Col lg={12} className="py-1">
             <h2>About the Company</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
@@ -36,6 +38,7 @@ const About = () => (
           </Col>
         </Row>
       </Container>
+      <div className="m-2"></div>
       <InfoSection
         title="Mission"
         text="
@@ -45,6 +48,7 @@ const About = () => (
           </ul>"
         img="site-images/aboutus.jpg"
       />
+      <Divider />
       <InfoSection
         title="Vision"
         text=" <ul>
@@ -57,7 +61,6 @@ const About = () => (
         reverse={true}
       />
     </div>
-    <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
 

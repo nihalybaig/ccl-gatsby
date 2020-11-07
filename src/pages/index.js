@@ -10,6 +10,7 @@ import FadingDiv from "../components/FadingDiv"
 import { Col, Row } from "react-bootstrap"
 import IconTileRow from "../components/iconcard"
 import InfoSection from "../components/InfoSection"
+import { Divider } from "../components/CommonComponents"
 
 const IndexPage = () => (
   <Layout>
@@ -21,10 +22,8 @@ const IndexPage = () => (
         margin: "0 auto",
       }}
     >
-      <div className="m-2 p-2">
-        <hr />
-      </div>
-      <div className="my-2">
+      <Divider />
+      <div className="m-2 px-1">
         <div className="my-2 py-2">
           <h1>Continental Logistics Services</h1>
           <p>Established in 2016</p>
@@ -65,16 +64,14 @@ const IndexPage = () => (
           </div>
         </div> */}
       </div>
-      <div className="m-4 p-2">
-        <hr />
-      </div>
+      <Divider />
       <Row className="d-flex justify-content-md-center align-items-center my-2">
         <Col>
           <FadingDiv />
         </Col>
       </Row>
       {/* <Row className="d-flex justify-content-md-center align-items-center my-5"> */}
-      <div className="my-5 py-2">
+      <div className="mx-2 my-5 py-2">
         <IconTileRow />
       </div>
       {/* </Row> */}
