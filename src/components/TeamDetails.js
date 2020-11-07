@@ -9,7 +9,7 @@ export default function TeamDetails() {
         <Row>
           {teamList.map(te => (
             <Col lg={3} xs={6}>
-              <Card style={{ width: "18rem" }}>
+              <Card>
                 <Card.Body>
                   <Card.Img
                     variant="top"
