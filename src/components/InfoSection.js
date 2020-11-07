@@ -9,7 +9,7 @@ export default function InfoSection({
   img,
 }) {
   return (
-    <div>
+    <div className="px-2 mx-1">
       <div className="col-12 pb-4">
         <h2 className="text-center">{title}</h2>
       </div>

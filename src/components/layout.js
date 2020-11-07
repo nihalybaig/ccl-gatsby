@@ -16,6 +16,8 @@ import TopNavbar from "./navbar"
 import Banner from "./banner"
 import "./layout.scss"
 import Footer from "./footer"
+import ScrollToTop from "react-scroll-up"
+import { ImCircleUp } from "react-icons/im"
 
 const Layout = ({ children }) => {
   const { isSticky } = useSticky()
@@ -35,6 +37,21 @@ const Layout = ({ children }) => {
       {/* <Header siteTitle={data.site.siteMetadata?.title || `Title`} /> */}
       <Banner />
       <TopNavbar sticky={isSticky} />
+      <ScrollToTop showUnder={160} style={{ zIndex: 1100 }}>
+        <div
+          style={{
+            color: "darkslategrey",
+            fontSize: 26,
+            width: 45,
+            height: 45,
+            background: "lightgray",
+            opacity: 0.8,
+            textAlign: "center",
+          }}
+        >
+          <ImCircleUp />
+        </div>
+      </ScrollToTop>
       <PageTransition transitionTime={1000}>
         <div
           style={{

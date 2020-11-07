@@ -8,15 +8,15 @@ export default function TeamDetails() {
       <Container>
         <Row>
           {teamList.map(te => (
-            <Col lg={3} md={6} className="pt-2 pb-4">
+            <Col lg={3} md={6} className="pt-2">
               <Card className="border-0">
-                <Card.Body>
+                <Card.Body className="pb-0">
                   <Card.Img
                     variant="top"
                     src={teamList[0].image}
                     alt={te.name}
                   />
-                  <Card.Title className="text-center py-4">
+                  <Card.Title className="text-center pt-4">
                     {te.name}
                   </Card.Title>
                 </Card.Body>
