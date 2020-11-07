@@ -14,7 +14,7 @@ export default function InfoSection({
         <h2 className="text-center">{title}</h2>
       </div>
       <Row className={reverse ? `flex-row-reverse` : ``}>
-        <div className="col-md-6 m-auto">
+        <div className="col-md-6 my-2">
           <div
             data-sal={reverse ? `slide-left` : `slide-right`}
             data-sal-delay="300"

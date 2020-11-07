@@ -38,6 +38,9 @@ const SecondPage = () => (
           </p>"
         img="site-images/1 (2).jpg"
       />
+      <div className="m-4 p-2">
+        <hr />
+      </div>
       <InfoSection
         title="Beverages"
         text="<p>

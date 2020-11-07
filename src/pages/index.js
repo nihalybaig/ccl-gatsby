@@ -2,7 +2,7 @@ import React from "react"
 // import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
+// import Image from "../components/image"
 import SEO from "../components/seo"
 import HomePageCarousel from "../components/HomePageCarousel"
 import FadingDiv from "../components/FadingDiv"
@@ -24,10 +24,16 @@ const IndexPage = () => (
       <div className="m-2 p-2">
         <hr />
       </div>
-      <div className="m-2 p-2">
-        <h1>Continental Logistics Services</h1>
-        <p>Established in 2016</p>
-        <p>Now go explore something great.</p>
+      <div className="my-2">
+        <div className="my-2 py-2">
+          <h1>Continental Logistics Services</h1>
+          <p>Established in 2016</p>
+          <p>
+            On several decades of solid experience the group had obtained in the
+            importation, storage and distribution of dry, chilled and frozen
+            products throughout Saudi Arabia to various clients in KSA
+          </p>
+        </div>
         <InfoSection
           title="Food"
           text="<p>
@@ -48,29 +54,30 @@ const IndexPage = () => (
             Toffee, Crisps &amp; Crackers, Healthy Snacks, Nuts, Dried Fruits,
             Popcorn, Olives &amp; Pickled Snacks
           </p>"
-          img="optimizing-images/gatsby-astronaut.png"
+          img="site-images/2 (2).jpg"
         />
-        <div data-sal="slide-right" data-sal-delay="300" data-sal-easing="ease">
-          <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+        {/* <div data-sal="fade" data-sal-delay="300" data-sal-easing="ease">
+          <div style={{ marginBottom: `1.45rem` }}>
             <Image
               alt="dsas"
               filename="optimizing-images/gatsby-astronaut.png"
             />
           </div>
-        </div>
+        </div> */}
       </div>
       <div className="m-4 p-2">
         <hr />
       </div>
-      <Row className="justify-content-md-center align-items-center pb-5">
-        <Col sm={6}>
-          <FadingDiv />
-        </Col>
-        <Col sm={6}>
+      <Row className="d-flex justify-content-md-center align-items-center my-2">
+        <Col>
           <FadingDiv />
         </Col>
       </Row>
-      <IconTileRow />
+      {/* <Row className="d-flex justify-content-md-center align-items-center my-5"> */}
+      <div className="my-5 py-2">
+        <IconTileRow />
+      </div>
+      {/* </Row> */}
       {/* <Link to="/gallery/">Go to page 2</Link> <br />
       <Link to="/using-typescript/">Go to "Using TypeScript"</Link> */}
     </div>

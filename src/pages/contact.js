@@ -18,7 +18,6 @@ const Contact = () => (
     >
       <section id="contactUs">
         <div className="container my-5">
-          {" "}
           <ContactForm />
         </div>
         <div className="container my-5">

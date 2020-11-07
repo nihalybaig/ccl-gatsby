@@ -1,13 +1,17 @@
-.simple-trans-main > div {
-  position: absolute;
-  left: 15%;
-  width: 50%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: black;
-  font-weight: 800;
-  will-change: transform, opacity;
-  text-shadow: 0px 2px 40px #00000020, 0px 2px 5px #00000030;
+.simple-trans-main {
+  min-height: 200px;
+  div {
+    position: absolute;
+    left: 10%;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    will-change: transform, opacity;
+    text-shadow: 0px 2px 40px #00000020, 0px 2px 5px #00000030;
+  }
 }

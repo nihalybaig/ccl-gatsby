@@ -21,35 +21,44 @@ import "./fadingdiv.scss"
 ]
  */
 
-const pages = [
-  ({ style }) => (
-    <animated.div style={{ ...style, color: "darkred" }}>
-      <div className="d-block">
-        <h4>Who We Are</h4>
-        <hr />
-        <p>We have atoler a sd asmda sd,m as,d as,md dhkadnjas dkasj sas</p>
-      </div>
-    </animated.div>
-  ),
-  ({ style }) => (
-    <animated.div style={{ ...style, color: "darkblue" }}>
-      <div className="d-block">
-        <h4>Why Us</h4>
-        <hr />
-        <p>We hav sd,m as,d as,md dhkadnj lksda dk al lsdak as dkasj sas</p>
-      </div>
-    </animated.div>
-  ),
-  ({ style }) => (
-    <animated.div style={{ ...style, color: "darkgreen" }}>
-      <div className="d-block">
-        <h4>What We Do</h4>
-        <hr />
-        <p>We hav sd,lorem ipusj s,dm sadasdkmk daksl dlak sdlka</p>
-      </div>
-    </animated.div>
-  ),
+const data = [
+  {
+    title: "Who We Are",
+    desc:
+      "as,md dhkadnjas dkasj sasas,md dhkadnjas dkasj sasas,md dhkadnjas dkasj sasas,md dhkadnjas dkasj sasWe have atoler a sd asmda sd,m as,d as,md dhkadnjas dkasj sas",
+    color: "darkslateblue",
+  },
+  {
+    title: "What We Do",
+    desc:
+      "We have atoler a sd asmda sd,moler a sd asmda sd,moler a sd asmda sd,moler a sd asmda sd,moler a sd asmda sd,m as,d as,md dhkadnjas dkasj sas",
+    color: "darkgoldenrod",
+  },
+  {
+    title: "Why Us",
+    desc:
+      "We havedkas  dsa dkas dasild klas dlkas kdl aslk dlad sakdlkas d laksd lka sdlas kdaskld asl atoler a sd asmda sd,m as,d as,md dhkadnjas dkasj sas",
+    color: "darkolivegreen",
+  },
+  {
+    title: "Who We Are",
+    desc:
+      "We have atoler a sd asmda sd,m as,d as,md dhkadnjas dkasj sasasmda sd,m as,d as,md dhkadnjas dkasj sasasmda sd,m as,d as,md dhkadnjas dkasj sasasmda sd,m as,d as,md dhkadnjas dkasj sasasmda sd,m as,d as,md dhkadnjas dkasj sasasmda sd,m as,d as,md dhkadnjas dkasj sas",
+    color: "darkred",
+  },
 ]
+
+const pages = data.map(d => ({ style }) => {
+  return (
+    <animated.div style={{ ...style, color: d.color || "darkblue" }}>
+      <div className="d-block">
+        <h4 className="text-center">{d.title}</h4>
+        <hr />
+        <p>{d.desc}</p>
+      </div>
+    </animated.div>
+  )
+})
 
 const FadingDiv = () => {
   const [index, set] = useState(0)
