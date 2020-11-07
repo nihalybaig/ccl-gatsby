@@ -5,10 +5,11 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import TeamDetails from "../components/TeamDetails"
 import InfoSection from "../components/InfoSection"
+import BreadcrumbComponent from "../components/Breadcrumb"
 const About = () => (
   <Layout>
     <SEO title="About Us" />
-
+    <BreadcrumbComponent current="About Us" />
     <div
       style={{
         maxWidth: 960,
