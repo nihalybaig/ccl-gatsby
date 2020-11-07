@@ -32,9 +32,7 @@ const pages = [
 ]
 
 const TopNavbar = ({ sticky }) => (
-  <div
-    className={`${sticky ? "bg-white navbar--container-sticky" : "bg-white"}`}
-  >
+  <div className={sticky ? "bg-white navbar--container-sticky" : "bg-white"}>
     <Navbar
       expand="lg"
       collapseOnSelect
@@ -53,11 +51,6 @@ const TopNavbar = ({ sticky }) => (
           <img
             src={logo}
             alt="CCL"
-            style={
-              sticky
-                ? { width: "70px", height: "35px" }
-                : { width: "140px", height: "70px" }
-            }
             className={
               sticky ? "navbar--logo navbar--logo--sticky" : "navbar--logo"
             }

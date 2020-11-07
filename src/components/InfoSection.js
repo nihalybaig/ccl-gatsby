@@ -9,13 +9,21 @@ export default function InfoSection({
   img,
 }) {
   return (
-    <div className="p-4">
+    <div>
       <div className="col-12 pb-4">
         <h2 className="text-center">{title}</h2>
       </div>
-      <Row className={`${reverse ? `flex-row-reverse` : ``}`}>
+      <Row className={reverse ? `flex-row-reverse` : ``}>
         <div className="col-md-6 m-auto">
-          <Image alt={img} filename={img} />
+          <div
+            data-sal={reverse ? `slide-left` : `slide-right`}
+            data-sal-delay="300"
+            data-sal-easing="ease"
+          >
+            <div style={{ margin: "0 auto" }}>
+              <Image alt={img} filename={img} />
+            </div>
+          </div>
         </div>
         <div
           className="col-md-6 text-justify"

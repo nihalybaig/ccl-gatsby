@@ -19,11 +19,6 @@ export default function HomePageCarousel() {
           <div className="d-block w-100">
             <Image alt="first image" filename="carousel-images/1.jpg" />
           </div>
-
-          <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <div className="d-block w-100">

@@ -25,7 +25,7 @@ const pages = [
   ({ style }) => (
     <animated.div style={{ ...style, color: "darkred" }}>
       <div className="d-block">
-        <h4>HELLO</h4>
+        <h4>Who We Are</h4>
         <hr />
         <p>We have atoler a sd asmda sd,m as,d as,md dhkadnjas dkasj sas</p>
       </div>
@@ -34,7 +34,7 @@ const pages = [
   ({ style }) => (
     <animated.div style={{ ...style, color: "darkblue" }}>
       <div className="d-block">
-        <h4>WORLD</h4>
+        <h4>Why Us</h4>
         <hr />
         <p>We hav sd,m as,d as,md dhkadnj lksda dk al lsdak as dkasj sas</p>
       </div>
@@ -43,7 +43,7 @@ const pages = [
   ({ style }) => (
     <animated.div style={{ ...style, color: "darkgreen" }}>
       <div className="d-block">
-        <h4>YELLO</h4>
+        <h4>What We Do</h4>
         <hr />
         <p>We hav sd,lorem ipusj s,dm sadasdkmk daksl dlak sdlka</p>
       </div>

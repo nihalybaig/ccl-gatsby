@@ -8,8 +8,8 @@ export default function TeamDetails() {
       <Container>
         <Row>
           {teamList.map(te => (
-            <Col lg={3} xs={6}>
-              <Card>
+            <Col lg={3} md={6} className="pt-2 pb-4">
+              <Card className="border-0">
                 <Card.Body>
                   <Card.Img
                     variant="top"

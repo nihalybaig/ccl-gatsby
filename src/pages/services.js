@@ -4,11 +4,12 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import InfoSection from "../components/InfoSection"
+import BreadcrumbComponent from "../components/Breadcrumb"
 
 const SecondPage = () => (
   <Layout>
-    <SEO title="Page two" />
-
+    <SEO title="Services" />
+    <BreadcrumbComponent current="Services" />
     <div
       style={{
         maxWidth: 960,
