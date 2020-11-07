@@ -1,11 +1,11 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import InfoSection from "../components/InfoSection"
 import BreadcrumbComponent from "../components/Breadcrumb"
 import { Divider } from "../components/CommonComponents"
+import CustomList from "../components/CustomList"
 
 const SecondPage = () => (
   <Layout>
@@ -17,6 +17,7 @@ const SecondPage = () => (
         margin: "0 auto",
       }}
     >
+      <CustomList title="New List" items={["dksjn", "cheese", "pepsi"]} />
       <InfoSection
         title="Food"
         text="<p>
