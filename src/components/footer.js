@@ -1,6 +1,5 @@
 import React from "react"
 import { Col, Row } from "react-bootstrap"
-import { Divider } from "./CommonComponents"
 import SocialMediaBar from "./soical-media"
 import Subscribe from "./subscribe"
 
@@ -16,28 +15,30 @@ const Footer = () => (
       }}
       className="text-center text-white"
     >
-      <Row style={{ margin: "0 auto", maxWidth: 960 }}>
-        <Col lg={4}>
-          <p className="text-left">
+      <Row style={{ margin: "0 auto", maxWidth: 960, textAlign: "left" }}>
+        <Col lg={6}>
+          <h5>Best in class</h5>
+          <p>
             kdlsam dka daslk dals lkas dlka sdlkas dl laks dlak sld asld aklsd
             alks dalkd sa
           </p>
         </Col>
-        <Col lg={4}>
+        <Col lg={3}>
+          <h5>Useful Links</h5>
           <p>link 1</p>
           <p>link 2</p>
           <p>link 3</p>
           <p>link 4</p>
         </Col>
-        <Col lg={4}>
+        <Col lg={3}>
+          <h5>External Links</h5>
           <p>link 1</p>
           <p>link 2</p>
           <p>link 3</p>
           <p>link 4</p>
         </Col>
       </Row>
-      <Divider />
-      <div>
+      <div style={{ fontSize: 14, marginTop: 10 }}>
         © {new Date().getFullYear()}, Built by
         {` `}
         <a
