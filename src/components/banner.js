@@ -20,7 +20,7 @@ const Banner = () => (
       }}
       className="im-container"
     >
-      <span className="mx-3">
+      <span>
         <AiOutlinePhone style={{ margin: `0 5px 2px 1px` }} />
         <span
           style={{
@@ -30,7 +30,7 @@ const Banner = () => (
           {phone}
         </span>
       </span>
-      <span className="mx-3">
+      <span className="ml-3">
         <AiOutlineMail style={{ margin: `0 5px 2px 1px` }} />
         <a
           href={`mailto:${email}`}
@@ -41,7 +41,7 @@ const Banner = () => (
           {email}
         </a>
       </span>
-      <span className="float-right mr-2">
+      <span className="float-right">
         <Button
           variant="secondary"
           size="sm"

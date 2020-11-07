@@ -2,6 +2,7 @@
 import React from "react"
 import { AiOutlinePhone, AiOutlineMail } from "react-icons/ai"
 import { FaGlobe } from "react-icons/fa"
+import SlideBox from "./SlideBox"
 export default function ContactForm() {
   return (
     <>
@@ -14,16 +15,16 @@ export default function ContactForm() {
       </div>
       <div className="container">
         <div className="row">
-          <div className="col-md-8">
-            <div className="well bg-light px-2 py-2 ">
+          <div className="col-md-6">
+            <div className="well px-2 py-2 ">
               <form>
-                <fieldset className="border p-2">
-                  <legend className="w-auto">Contact Form</legend>
+                <fieldset className="p-2">
+                  {/* <legend className="w-auto">Contact Form</legend> */}
 
                   <div className="row">
-                    <div className="col-md-6">
+                    <div className="col-12">
                       <div className="form-group">
-                        <label htmlFor="name">Name</label>
+                        {/* <label htmlFor="name">Name</label> */}
                         <input
                           type="text"
                           className="form-control"
@@ -33,7 +34,7 @@ export default function ContactForm() {
                         />
                       </div>
                       <div className="form-group">
-                        <label htmlFor="phone">Phone</label>
+                        {/* <label htmlFor="phone">Phone</label> */}
                         <div className="input-group">
                           <input
                             type="phone"
@@ -45,7 +46,7 @@ export default function ContactForm() {
                         </div>
                       </div>
                       <div className="form-group">
-                        <label htmlFor="email">Email Address</label>
+                        {/* <label htmlFor="email">Email Address</label> */}
                         <div className="input-group">
                           <input
                             type="email"
@@ -56,10 +57,10 @@ export default function ContactForm() {
                           />
                         </div>
                       </div>
-                    </div>
-                    <div className="col-md-6">
+                      {/* </div>
+                    <div className="col-md-8"> */}
                       <div className="form-group">
-                        <label htmlFor="name">Message</label>
+                        {/* <label htmlFor="name">Message</label> */}
                         <textarea
                           name="message"
                           id="message"
@@ -83,26 +84,42 @@ export default function ContactForm() {
               </form>
             </div>
           </div>
-          <div className="col-md-4">
-            <form>
-              <address>
-                <FaGlobe style={{ margin: `0 5px 2px 1px` }} />
-                <strong>Trading Co, Inc.</strong>
+          <div className="col-md-6">
+            <SlideBox>
+              <form>
+                <h2>Address</h2>
+                <address>
+                  <FaGlobe style={{ margin: `0 5px 2px 1px` }} />
+                  <strong>Trading Co, Inc.</strong>
+                  <br />
+                  Ad Dammam
+                  <br />
+                  KSA
+                  <br />
+                </address>
+                <AiOutlinePhone style={{ margin: `0 5px 2px 1px` }} />
+                <strong> Phone Nos</strong>
                 <br />
-                Ad Dammam
+                (123) 456-7890 <br />
+                (123) 456-7890 <br />
                 <br />
-                KSA
+                <AiOutlineMail style={{ margin: `0 5px 2px 1px` }} />
+                <strong> Email ID</strong>
                 <br />
-              </address>
-              <AiOutlinePhone style={{ margin: `0 5px 2px 1px` }} />
-              <strong> Phone Nos</strong>
-              <br />
-              (123) 456-7890 <br />
-              <AiOutlineMail style={{ margin: `0 5px 2px 1px` }} />
-              <strong> Email ID</strong>
-              <br />
-              <a href="mailto:#">first.last@example.com</a>
-            </form>
+                <a href="mailto:#">first.last@example.com</a>
+                <br />
+                <br />
+                <address>
+                  <FaGlobe style={{ margin: `0 5px 2px 1px` }} />
+                  <strong>Trading Co, Inc.</strong>
+                  <br />
+                  Ad Dammam
+                  <br />
+                  KSA
+                  <br />
+                </address>
+              </form>
+            </SlideBox>
           </div>
         </div>
       </div>

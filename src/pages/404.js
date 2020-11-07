@@ -18,13 +18,15 @@ const NotFoundPage = () => {
   return (
     <Layout>
       <SEO title="404: Not found" />
-      <h1>404: Not Found</h1>
-      <p>
-        You just hit a route that doesn&#39;t exist... Page under
-        construction...
-      </p>
-      <p>Redirecting to homepage in {counter} seconds</p>
-      <Link to="/">Go to homepage</Link>
+      <div style={{ maxWidth: 750, margin: "5% auto" }}>
+        <h1>404: Not Found</h1>
+        <p>
+          <em>{window.location.href}</em> - This page doesn&#39;t exist... Page
+          under construction...
+        </p>
+        <p>Redirecting to homepage in {counter} seconds</p>
+        <Link to="/">Go to homepage</Link>
+      </div>
     </Layout>
   )
 }
