@@ -7,7 +7,7 @@ import BreadcrumbComponent from "../components/Breadcrumb"
 import { Divider } from "../components/CommonComponents"
 import CustomList from "../components/CustomList"
 
-const SecondPage = () => (
+const Services = () => (
   <Layout>
     <SEO title="Services" />
     <BreadcrumbComponent current="Services" />
@@ -144,4 +144,4 @@ const SecondPage = () => (
   </Layout>
 )
 
-export default SecondPage
+export default Services
