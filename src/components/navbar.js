@@ -51,11 +51,6 @@ const TopNavbar = ({ sticky }) => (
           <img
             src={logo}
             alt="CCL"
-            style={
-              sticky
-                ? { width: "70px", height: "35px" }
-                : { width: "140px", height: "70px" }
-            }
             className={
               sticky ? "navbar--logo navbar--logo--sticky" : "navbar--logo"
             }

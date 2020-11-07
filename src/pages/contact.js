@@ -17,8 +17,11 @@ const Contact = () => (
       }}
     >
       <section id="contactUs">
-        <ContactForm />
-        <div className="container">
+        <div className="container my-5">
+          {" "}
+          <ContactForm />
+        </div>
+        <div className="container my-5">
           <div className="row">
             <div className="col-lg-12 py-3">
               <iframe

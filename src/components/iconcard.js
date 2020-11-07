@@ -65,28 +65,28 @@ const IconTileRow = () => {
       <Col sm={3}>
         <StatTile
           icon={<AiFillFacebook />}
-          stat="3423"
+          stat={3423}
           desc="dsada ajskd k das"
         />
       </Col>
       <Col sm={3}>
         <StatTile
           icon={<AiFillFacebook />}
-          stat="32332"
+          stat={32332}
           desc="dsada ajskd k das"
         />
       </Col>
       <Col sm={3}>
         <StatTile
           icon={<AiFillFacebook />}
-          stat="342"
+          stat={342}
           desc="dsada ajskd k das"
         />
       </Col>
       <Col sm={3}>
         <StatTile
           icon={<AiFillFacebook />}
-          stat="2323"
+          stat={2323}
           desc="dsada ajskd k das"
         />
       </Col>

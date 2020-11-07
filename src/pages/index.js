@@ -6,7 +6,7 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 import HomePageCarousel from "../components/HomePageCarousel"
 import FadingDiv from "../components/FadingDiv"
-import SlideBox from "../components/SlideBox"
+// import SlideBox from "../components/SlideBox"
 import { Col, Row } from "react-bootstrap"
 import IconTileRow from "../components/iconcard"
 import InfoSection from "../components/InfoSection"
@@ -67,7 +67,7 @@ const IndexPage = () => (
           <FadingDiv />
         </Col>
         <Col sm={6}>
-          <SlideBox />
+          <FadingDiv />
         </Col>
       </Row>
       <IconTileRow />
