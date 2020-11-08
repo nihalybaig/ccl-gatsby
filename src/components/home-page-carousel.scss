@@ -1,0 +1,9 @@
+.home-page-carousel {
+  @media only screen and (max-width: 992px) {
+    .carousel-item {
+      width: 150% !important;
+      left: -25%;
+      position: relative;
+    }
+  }
+}

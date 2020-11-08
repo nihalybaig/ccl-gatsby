@@ -74,9 +74,10 @@ const IndexPage = () => (
       <div className="mx-2 my-5 py-2">
         <IconTileRow />
       </div>
+      <Divider />
       <Row>
-        <Col lg={12} className="py-1 my-2">
-          <h2 className="text-center">Our Suppliers</h2>
+        <Col lg={12} className="py-1">
+          <h2 className="text-center mb-5">Our Suppliers</h2>
           <BrandCarousel />
         </Col>
       </Row>
