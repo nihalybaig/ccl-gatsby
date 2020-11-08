@@ -5,7 +5,8 @@ import SEO from "../components/seo"
 import InfoSection from "../components/InfoSection"
 import BreadcrumbComponent from "../components/Breadcrumb"
 import { Divider } from "../components/CommonComponents"
-import CustomList from "../components/CustomList"
+// import CustomList from "../components/CustomList"
+import CustomParaList from "../components/CustomParaList"
 
 const Services = () => (
   <Layout>
@@ -17,7 +18,15 @@ const Services = () => (
         margin: "0 auto",
       }}
     >
-      <CustomList title="New List" items={["dksjn", "cheese", "pepsi"]} />
+      {/* <CustomList title="New List" items={["dksjn", "cheese", "pepsi"]} /> */}
+      <CustomParaList
+        title="New List"
+        items={[
+          "We are having 3000 or more food products and are still counting. We deal with all top brands and distributors. We always ensure the quality, quantity and the availability of products",
+          "We are having 3000 or more food products and are still counting. We deal with all top brands and distributors",
+          ". We always ensure the quality, quantity and the availability of products pepsi",
+        ]}
+      />
       <InfoSection
         title="Food"
         text="<p>

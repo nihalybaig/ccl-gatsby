@@ -4,7 +4,7 @@ import SocialMediaBar from "./soical-media"
 import Subscribe from "./subscribe"
 
 const Footer = () => (
-  <>
+  <div className="mt-5">
     <Subscribe />
     <SocialMediaBar />
     <footer
@@ -49,7 +49,7 @@ const Footer = () => (
         </a>
       </div>
     </footer>
-  </>
+  </div>
 )
 
 export default Footer

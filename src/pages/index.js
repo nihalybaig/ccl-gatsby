@@ -11,7 +11,7 @@ import { Col, Row } from "react-bootstrap"
 import IconTileRow from "../components/iconcard"
 import InfoSection from "../components/InfoSection"
 import { Divider } from "../components/CommonComponents"
-
+import BrandCarousel from "../components/BrandCarousel"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
@@ -74,6 +74,13 @@ const IndexPage = () => (
       <div className="mx-2 my-5 py-2">
         <IconTileRow />
       </div>
+      <Divider />
+      <Row>
+        <Col lg={12} className="py-1">
+          <h2 className="text-center mb-5">Our Suppliers</h2>
+          <BrandCarousel />
+        </Col>
+      </Row>
       {/* </Row> */}
       {/* <Link to="/gallery/">Go to page 2</Link> <br />
       <Link to="/using-typescript/">Go to "Using TypeScript"</Link> */}
