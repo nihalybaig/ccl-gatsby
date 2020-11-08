@@ -36,29 +36,32 @@ const About = () => (
             </p>
           </Col>
         </Row>
-      </Container>
-      <div className="m-2"></div>
-      <InfoSection
-        title="Mission"
-        text="
+
+        <div className="m-2"></div>
+        <InfoSection
+          title="Mission"
+          text="
           <ul>
           <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
           <li>Nullam eleifend ex velit, non tincidunt ex suscipit non.</li>
           </ul>"
-        img="site-images/aboutus.jpg"
-      />
-      <Divider />
-      <InfoSection
-        title="Vision"
-        text=" <ul>
+          img="site-images/aboutus.jpg"
+        />
+        <Divider />
+
+        <InfoSection
+          title="Vision"
+          text=" <ul>
           <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
           <li>Nullam eleifend ex velit, non tincidunt ex suscipit non.</li>
           <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
           <li>Nullam eleifend ex velit, non tincidunt ex suscipit non.</li>
           </ul>"
-        img="site-images/aboutus.jpg"
-        reverse={true}
-      />
+          img="site-images/aboutus.jpg"
+          reverse={true}
+        />
+        <Divider />
+      </Container>
     </div>
   </Layout>
 )
