@@ -9,11 +9,10 @@ const Footer = () => (
     <SocialMediaBar />
     <footer
       style={{
-        background: `#000288`,
         margin: `0 auto`,
         padding: `1.45rem 1.0875rem`,
       }}
-      className="text-center text-white"
+      className="text-center text-white background-1"
     >
       <Row style={{ margin: "0 auto", maxWidth: 960, textAlign: "left" }}>
         <Col lg={6}>

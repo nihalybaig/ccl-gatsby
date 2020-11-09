@@ -5,13 +5,14 @@ import Layout from "../components/layout"
 // import Image from "../components/image"
 import SEO from "../components/seo"
 import HomePageCarousel from "../components/HomePageCarousel"
-import FadingDiv from "../components/FadingDiv"
+// import FadingDiv from "../components/FadingDiv"
 // import SlideBox from "../components/SlideBox"
 import { Col, Row } from "react-bootstrap"
 import IconTileRow from "../components/iconcard"
-import InfoSection from "../components/InfoSection"
+// import InfoSection from "../components/InfoSection"
 import { Divider } from "../components/CommonComponents"
 import BrandCarousel from "../components/BrandCarousel"
+import CustomParaList from "../components/CustomParaList"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
@@ -33,7 +34,16 @@ const IndexPage = () => (
             products throughout Saudi Arabia to various clients in KSA
           </p>
         </div>
-        <InfoSection
+        <CustomParaList
+          title="CCL"
+          items={[
+            "Welcome to our employment section and apply for positions online. Here are our current job openings. Please click on the job title for more information, and apply from that page if you are interested",
+            "Welcome to our employment section and apply for positions on job openings. Please click on the job title for more information, and apply from that page if you are interested",
+            "Welcome to our employment section and apply for positions onre information, and apply from that page if you are interested",
+          ]}
+        />
+
+        {/*         <InfoSection
           title="Food"
           text="<p>
             We are having 3000 or more food products and are still counting. We
@@ -54,7 +64,7 @@ const IndexPage = () => (
             Popcorn, Olives &amp; Pickled Snacks
           </p>"
           img="site-images/2 (2).jpg"
-        />
+        /> */}
         {/* <div data-sal="fade" data-sal-delay="300" data-sal-easing="ease">
           <div style={{ marginBottom: `1.45rem` }}>
             <Image
@@ -64,16 +74,13 @@ const IndexPage = () => (
           </div>
         </div> */}
       </div>
-      <Divider />
-      <Row className="d-flex justify-content-md-center align-items-center my-2">
-        <Col>
-          <FadingDiv />
+      {/* <Row className="d-flex justify-content-md-center align-items-center my-5"> */}
+      <Row>
+        <Col lg={12} className="py-1">
+          <h2 className="text-center mb-4">Best in Class</h2>
+          <IconTileRow />
         </Col>
       </Row>
-      {/* <Row className="d-flex justify-content-md-center align-items-center my-5"> */}
-      <div className="mx-2 my-5 py-2">
-        <IconTileRow />
-      </div>
       <Divider />
       <Row>
         <Col lg={12} className="py-1">

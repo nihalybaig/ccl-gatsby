@@ -12,12 +12,7 @@ const Subscribe = () => {
     console.log(event)
   }
   return (
-    <div
-      style={{
-        background: `#000288`,
-        color: `#fff`,
-      }}
-    >
+    <div className="background-1 text-white">
       <div
         className="row py-4 d-flex align-items-center"
         style={{

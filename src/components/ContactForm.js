@@ -98,26 +98,21 @@ export default function ContactForm() {
                   <br />
                 </address>
                 <AiOutlinePhone style={{ margin: `0 5px 2px 1px` }} />
-                <strong> Phone Nos</strong>
+                <strong>Phone Nos</strong>
                 <br />
                 (123) 456-7890 <br />
                 (123) 456-7890 <br />
+                <br />
+                <a href="https://wa.me/919701318468?text=CCL%20Website%20Message%20:%20">
+                  <strong>Whatsapp</strong>
+                </a>{" "}
+                <br />
                 <br />
                 <AiOutlineMail style={{ margin: `0 5px 2px 1px` }} />
-                <strong> Email ID</strong>
+                <strong>Email ID</strong>
                 <br />
                 <a href="mailto:#">first.last@example.com</a>
                 <br />
-                <br />
-                <address>
-                  <FaGlobe style={{ margin: `0 5px 2px 1px` }} />
-                  <strong>Trading Co, Inc.</strong>
-                  <br />
-                  Ad Dammam
-                  <br />
-                  KSA
-                  <br />
-                </address>
               </form>
             </SlideBox>
           </div>

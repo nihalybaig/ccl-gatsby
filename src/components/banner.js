@@ -3,6 +3,7 @@ import React from "react"
 import { Button } from "react-bootstrap"
 import { AiOutlinePhone, AiOutlineMail } from "react-icons/ai"
 import { useMediaQuery } from "beautiful-react-hooks"
+import { Link } from "gatsby"
 
 const email = "abc@gmail.com"
 const phone = "9876543210"
@@ -46,13 +47,25 @@ const Banner = () => {
         </span>
         {isLarge && (
           <span className="float-right">
-            <Button
-              variant="secondary"
-              size="sm"
-              style={{ height: "24px", lineHeight: "10px", marginTop: "-5px" }}
+            <Link
+              to="/contact"
+              style={{
+                color: `white`,
+                textDecoration: `none`,
+              }}
             >
-              Suppliers
-            </Button>
+              <Button
+                variant="secondary"
+                size="sm"
+                style={{
+                  height: "24px",
+                  lineHeight: "10px",
+                  marginTop: "-5px",
+                }}
+              >
+                Suppliers
+              </Button>
+            </Link>
           </span>
         )}
       </div>

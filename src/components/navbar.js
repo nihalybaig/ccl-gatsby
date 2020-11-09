@@ -69,7 +69,7 @@ const TopNavbar = ({ sticky }) => {
               </Link>
             ))}
             {isSmall && (
-              <Link className="nav--link-item" to="/">
+              <Link className="nav--link-item" to="/contact">
                 Suppliers
               </Link>
             )}

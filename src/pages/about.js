@@ -2,9 +2,9 @@ import React from "react"
 import { Col, Container, Row } from "react-bootstrap"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import TeamDetails from "../components/TeamDetails"
 import InfoSection from "../components/InfoSection"
 import BreadcrumbComponent from "../components/Breadcrumb"
+import FadingDiv from "../components/FadingDiv"
 import { Divider } from "../components/CommonComponents"
 const About = () => (
   <Layout>
@@ -19,13 +19,6 @@ const About = () => (
       <Container>
         <Row>
           <Col lg={12} className="py-1">
-            <h2 className="text-center">Our Workforce</h2>
-            <TeamDetails />
-          </Col>
-        </Row>
-        <Divider />
-        <Row>
-          <Col lg={12} className="py-1">
             <h2>About the Company</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
@@ -37,6 +30,12 @@ const About = () => (
           </Col>
         </Row>
 
+        <Row className="d-flex justify-content-md-center align-items-center my-2">
+          <Col>
+            <FadingDiv />
+          </Col>
+        </Row>
+        <Divider />
         <div className="m-2"></div>
         <InfoSection
           title="Mission"

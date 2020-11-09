@@ -1,6 +1,5 @@
 import React from "react"
 import { Card, Col, Row } from "react-bootstrap"
-import { GiCutDiamond } from "react-icons/gi"
 import Image from "./image"
 
 export default function CustomParaList({ title = "", items = [] }) {
@@ -13,9 +12,6 @@ export default function CustomParaList({ title = "", items = [] }) {
             <Col lg={6}>
               {items.map((item, i) => (
                 <p key={i}>
-                  <span className="mr-2">
-                    <GiCutDiamond />
-                  </span>
                   <span>{item}</span>
                 </p>
               ))}
