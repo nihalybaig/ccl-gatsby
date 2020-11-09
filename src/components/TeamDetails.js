@@ -15,6 +15,7 @@ export default function TeamDetails() {
                     variant="top"
                     src={teamList[0].image}
                     alt={te.name}
+                    style={{ borderRadius: "50%", height: 180, width: 180 }}
                   />
                   <Card.Title className="text-center pt-4">
                     {te.name}
