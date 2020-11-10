@@ -58,11 +58,12 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: `og:url`,
-          content: "https://ccl-saudi.netlify.app/",
+          content: "%PUBLIC_URL%",
         },
         {
           property: `og:image`,
-          content: "icons/icon-256x256.png",
+          itemprop: "image",
+          content: "%PUBLIC_URL%/icons/icon-256x256.png",
         },
         {
           name: `twitter:card`,
