@@ -13,6 +13,8 @@ import IconTileRow from "../components/iconcard"
 import { Divider } from "../components/CommonComponents"
 import BrandCarousel from "../components/BrandCarousel"
 import CustomParaList from "../components/CustomParaList"
+import TeamDetails from "../components/TeamDetails"
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
@@ -36,6 +38,7 @@ const IndexPage = () => (
             "Welcome to our employment section and apply for positions onre information, and apply from that page if you are interested",
           ]}
         />
+        <TeamDetails />
 
         {/*         <InfoSection
           title="Food"
