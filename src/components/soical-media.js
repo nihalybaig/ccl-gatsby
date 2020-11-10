@@ -6,13 +6,7 @@ const facebook = "facebook.com"
 const instagram = "instagram.com"
 
 const SocialMediaBar = () => (
-  <div
-    className="row py-3 d-flex align-items-center"
-    style={{
-      margin: `0 auto`,
-      maxWidth: 960,
-    }}
-  >
+  <div className="row py-3 d-flex align-items-center im-container">
     <div className="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
       <h6 className="mb-0">Get connected with us on social networks!</h6>
     </div>

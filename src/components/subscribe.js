@@ -13,13 +13,7 @@ const Subscribe = () => {
   }
   return (
     <div className="background-1 text-white">
-      <div
-        className="row py-4 d-flex align-items-center"
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-        }}
-      >
+      <div className="row py-4 d-flex align-items-center im-container">
         <div className="col-12">
           <Form onSubmit={handleSubmit}>
             <Row className="justify-content-md-center align-items-center">

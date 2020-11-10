@@ -10,12 +10,7 @@ const About = () => (
   <Layout>
     <SEO title="About Us" />
     <BreadcrumbComponent current="About Us" />
-    <div
-      style={{
-        maxWidth: 960,
-        margin: "0 auto",
-      }}
-    >
+    <div className="im-container">
       <Container>
         <Row>
           <Col lg={12} className="py-1">
