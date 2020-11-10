@@ -14,7 +14,7 @@ const Footer = () => (
       }}
       className="text-center text-white background-1"
     >
-      <Row style={{ margin: "0 auto", maxWidth: 960, textAlign: "left" }}>
+      <Row className="im-container text-left">
         <Col lg={6}>
           <h5>Best in class</h5>
           <p>

@@ -9,12 +9,7 @@ const Contact = () => (
   <Layout>
     <SEO title="Contact Us" />
     <BreadcrumbComponent current="Contact Us" />
-    <div
-      style={{
-        maxWidth: 960,
-        margin: "0 auto",
-      }}
-    >
+    <div className="im-container">
       <section id="contactUs">
         <div className="container my-5">
           <ContactForm />

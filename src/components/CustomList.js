@@ -1,22 +1,43 @@
+import { useMediaQuery } from "beautiful-react-hooks"
 import React from "react"
 import { Card, Col, Row } from "react-bootstrap"
 import { GiCutDiamond } from "react-icons/gi"
 
 export default function CustomList({ title = "", items = [] }) {
+  const isSmall = useMediaQuery("(max-width:768px)")
+  const isMedium = useMediaQuery("(max-width:992px)")
+
+  const maxHeightValue = isSmall ? "unset" : isMedium ? 560 : 380
+
   return (
     <div className="px-2 mx-1">
       <h3 className="my-4 text-center">{title}</h3>
       <Card className="text-white background-1">
         <Card.Body>
           <Row
-            style={{ maxHeight: 380, flexDirection: "column", fontSize: 20 }}
+            style={{
+              maxHeight: maxHeightValue,
+              flexDirection: isSmall ? "row" : "column",
+              fontSize: 20,
+            }}
           >
             {items.map((item, i) => (
-              <Col lg={4} key={i}>
-                {item && (
+              <Col
+                lg={4}
+                md={6}
+                xs={item.indexOf("<HEAD>") >= 0 ? 12 : 6}
+                key={i}
+              >
+                {item ? (
                   <p className="mb-1">
                     {item.indexOf("<HEAD>") >= 0 ? (
-                      <h4 className="mt-2">{item.split("<HEAD>")[1]}</h4>
+                      <h4
+                        className={
+                          isSmall ? "my-1 text-center border-1" : "my-2"
+                        }
+                      >
+                        {item.split("<HEAD>")[1]}
+                      </h4>
                     ) : (
                       <>
                         <span className="mr-2">
@@ -26,6 +47,8 @@ export default function CustomList({ title = "", items = [] }) {
                       </>
                     )}
                   </p>
+                ) : (
+                  <div className={isSmall ? "" : "my-3"} />
                 )}
               </Col>
             ))}

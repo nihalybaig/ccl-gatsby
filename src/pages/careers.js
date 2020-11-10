@@ -30,7 +30,7 @@ const Careers = () => {
     <Layout>
       <SEO title="Careers" />
       <BreadcrumbComponent current="Careers" />
-      <div style={{ maxWidth: 960, margin: "0 auto" }}>
+      <div className="im-container">
         <div className="my-5">
           <h3 className="my-4 text-center">JOIN OUR TEAM</h3>
           <h5 className="my-4 text-center">

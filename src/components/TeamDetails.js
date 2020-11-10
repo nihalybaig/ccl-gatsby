@@ -9,8 +9,8 @@ export default function TeamDetails() {
       <Container>
         <Row>
           {teamList.map(te => (
-            <Col lg={3} md={6} className="p-1">
-              <Card className="border-0">
+            <Col lg={3} md={6} xs={12} className="p-2">
+              <Card>
                 <Card.Body className="p-0">
                   <div style={{ overflow: "hidden" }}>
                     <Card.Img
@@ -19,7 +19,9 @@ export default function TeamDetails() {
                       alt={te.name}
                     />
                   </div>
-                  <Card.Title className="text-center p-0">{te.name}</Card.Title>
+                  <Card.Title className="text-center p-0 my-3">
+                    {te.name}
+                  </Card.Title>
                 </Card.Body>
               </Card>
             </Col>

@@ -17,16 +17,10 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <HomePageCarousel />
-    <div
-      style={{
-        maxWidth: 960,
-        margin: "0 auto",
-      }}
-    >
-      <Divider />
-      <div className="m-2 px-1">
+    <div className="im-container">
+      <div className="mx-2 my-3 px-1">
         <div className="my-2 py-2">
-          <h1>Continental Logistics Services</h1>
+          <h1>Continental Company Limited</h1>
           <p>Established in 2016</p>
           <p>
             On several decades of solid experience the group had obtained in the
