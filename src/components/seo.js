@@ -30,7 +30,6 @@ function SEO({ description, lang, meta, title }) {
     site.siteMetadata.description ||
     "Continental Company Limtied"
   const defaultTitle = site.siteMetadata?.title
-  const image = site.siteMetadata.image
 
   return (
     <Helmet

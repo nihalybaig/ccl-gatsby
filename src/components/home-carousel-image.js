@@ -33,7 +33,7 @@ import Img from "gatsby-image"
   return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
 } */
 
-const Image = props => (
+const HomeCarouselImage = props => (
   <StaticQuery
     query={graphql`
       query {
@@ -43,7 +43,7 @@ const Image = props => (
               relativePath
               name
               childImageSharp {
-                sizes(maxWidth: 600) {
+                sizes(maxWidth: 1920, maxHeight: 960) {
                   ...GatsbyImageSharpSizes
                 }
               }
@@ -66,4 +66,4 @@ const Image = props => (
   />
 )
 
-export default Image
+export default HomeCarouselImage

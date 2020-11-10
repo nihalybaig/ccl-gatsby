@@ -1,6 +1,6 @@
 import React from "react"
 import { Carousel } from "react-bootstrap"
-import Image from "./image"
+import HomeCarouselImage from "./home-carousel-image"
 import "./home-page-carousel.scss"
 
 const totalCarouselImages = 7
@@ -13,7 +13,7 @@ export default function HomePageCarousel() {
           return (
             <Carousel.Item key={i}>
               <div style={{ maxHeight: 480, maxWidth: 1920 }}>
-                <Image
+                <HomeCarouselImage
                   alt={`carousel ${i} image`}
                   filename={`carousel-images/${i}.jpg`}
                 />
