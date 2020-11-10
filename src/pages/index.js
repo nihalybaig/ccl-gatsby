@@ -13,7 +13,7 @@ import IconTileRow from "../components/iconcard"
 import { Divider } from "../components/CommonComponents"
 import BrandCarousel from "../components/BrandCarousel"
 import CustomParaList from "../components/CustomParaList"
-import TeamDetails from "../components/TeamDetails"
+import ProductDetails from "../components/ProductDetails"
 
 const IndexPage = () => (
   <Layout>
@@ -31,14 +31,14 @@ const IndexPage = () => (
           </p>
         </div>
         <CustomParaList
-          title="CCL"
+          title=""
           items={[
             "Welcome to our employment section and apply for positions online. Here are our current job openings. Please click on the job title for more information, and apply from that page if you are interested",
             "Welcome to our employment section and apply for positions on job openings. Please click on the job title for more information, and apply from that page if you are interested",
             "Welcome to our employment section and apply for positions onre information, and apply from that page if you are interested",
           ]}
         />
-        <TeamDetails />
+        <ProductDetails />
 
         {/*         <InfoSection
           title="Food"
@@ -72,6 +72,7 @@ const IndexPage = () => (
         </div> */}
       </div>
       {/* <Row className="d-flex justify-content-md-center align-items-center my-5"> */}
+      <Divider />
       <Row>
         <Col lg={12} className="py-1">
           <h2 className="text-center mb-4">Best in Class</h2>

@@ -12,7 +12,7 @@ const Footer = () => (
         margin: `0 auto`,
         padding: `1.45rem 1.0875rem`,
       }}
-      className="text-center text-white background-1"
+      className="text-center background-1"
     >
       <Row className="im-container text-left">
         <Col lg={6}>
@@ -42,7 +42,7 @@ const Footer = () => (
         {` `}
         <a
           href="mailto:nihal.y.baig@gmail.com"
-          className="text-center text-white font-weight-bold"
+          className="text-center background-1 font-weight-bold"
         >
           Baigs
         </a>

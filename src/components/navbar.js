@@ -35,9 +35,14 @@ const pages = [
 const TopNavbar = ({ sticky }) => {
   const isSmall = useMediaQuery("(max-width:650px)")
   return (
-    <div className={sticky ? "bg-white navbar--container-sticky" : "bg-white"}>
+    <div
+      className={
+        sticky ? "background-2 navbar--container-sticky" : "background-2"
+      }
+    >
       <Navbar
         expand="lg"
+        variant="dark"
         collapseOnSelect
         className={`navbar im-container ${
           sticky ? "navbar-sticky" : "navbar"

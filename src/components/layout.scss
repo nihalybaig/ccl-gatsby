@@ -12,6 +12,12 @@
 
 .background-1 {
   background: $background-color-1;
+  color: $font-color-light;
+}
+
+.background-2 {
+  background: $color-1;
+  color: $font-color-dark;
 }
 
 a:hover {
