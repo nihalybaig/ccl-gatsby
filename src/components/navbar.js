@@ -42,7 +42,7 @@ const TopNavbar = ({ sticky }) => {
     >
       <Navbar
         expand="lg"
-        variant="dark"
+        variant="light"
         collapseOnSelect
         className={`navbar im-container ${
           sticky ? "navbar-sticky" : "navbar"
