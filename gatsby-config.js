@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Continental Company Ltd`,
-    description: `Continental Logistic offers a full array of services that Will help you solve all of your logistic challenges throughout the Kingdom of Saudi Arabia.`,
+    description: `Continental Logistic offers a full array of services that will help you solve all of your logistic challenges throughout the Kingdom of Saudi Arabia.`,
     image: `src/images/gatsby-icon-300x200.png`,
     author: `@nihalybaig`,
   },

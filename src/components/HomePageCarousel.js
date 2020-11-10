@@ -12,7 +12,7 @@ export default function HomePageCarousel() {
         {[...Array(totalCarouselImages).keys()].map(i => {
           return (
             <Carousel.Item key={i}>
-              <div style={{ height: 480, maxWidth: 1920 }}>
+              <div style={{ maxHeight: 480, maxWidth: 1920 }}>
                 <Image
                   alt={`carousel ${i} image`}
                   filename={`carousel-images/${i}.jpg`}
