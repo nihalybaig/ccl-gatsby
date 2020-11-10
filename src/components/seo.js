@@ -25,7 +25,10 @@ function SEO({ description, lang, meta, title }) {
     `
   )
 
-  const metaDescription = description || site.siteMetadata.description
+  const metaDescription =
+    description ||
+    site.siteMetadata.description ||
+    "Continental Company Limtied"
   const defaultTitle = site.siteMetadata?.title
 
   return (
@@ -52,6 +55,14 @@ function SEO({ description, lang, meta, title }) {
         {
           property: `og:type`,
           content: `website`,
+        },
+        {
+          property: `og:url`,
+          content: "https://ccl-saudi.netlify.app/",
+        },
+        {
+          property: `og:image`,
+          content: "icons/icon-256x256.png",
         },
         {
           name: `twitter:card`,
