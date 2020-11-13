@@ -12,7 +12,7 @@ const GalleryPage = () => (
     <SEO title="Gallery" />
     <BreadcrumbComponent current="Gallery" />
 
-    <div style={{ maxWidth: 1160, margin: "0 auto" }}>
+    <div className="im-container-1">
       <Row>
         <Col lg={12} className="py-1">
           <h2 className="text-center">Our Range of Products</h2>

@@ -25,17 +25,18 @@ const IndexPage = () => (
           <h1>Continental Company Limited</h1>
           <p>Established in 2016</p>
           <p>
-            On several decades of solid experience the group had obtained in the
-            importation, storage and distribution of dry, chilled and frozen
-            products throughout Saudi Arabia to various clients in KSA
+            CONTINENTAL COMPANY LTD S.A. is one of the major distributors of
+            imported foods and beverages, and other consumer goods.  Our company
+            has more than 16 years of experience in the distribution business as
+            well as supermarket chains.  We dominate the supermarket,
+            convenience and horeca markets.
           </p>
         </div>
         <CustomParaList
           title=""
           items={[
-            "Welcome to our employment section and apply for positions online. Here are our current job openings. Please click on the job title for more information, and apply from that page if you are interested",
-            "Welcome to our employment section and apply for positions on job openings. Please click on the job title for more information, and apply from that page if you are interested",
-            "Welcome to our employment section and apply for positions onre information, and apply from that page if you are interested",
+            "CONTINENTAL COMPANY LTD S.A. is dedicated in using its resources to gain market share aggressively in the years to come.  We strive to promote our quality brands with our knowledge of this market place.  CCL is proud of its accomplishments to this date and is ready to take advantage of new challenges to come, while expanding and strengthening to new horizons of our business.",
+            "CCL market coverage is supplied with approximately NUMBER OF establishments directly and over 50 OTHER stores indirectly.",
           ]}
         />
         <ProductDetails />

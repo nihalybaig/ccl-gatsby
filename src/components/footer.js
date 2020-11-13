@@ -1,5 +1,7 @@
+import { Link } from "gatsby"
 import React from "react"
 import { Col, Row } from "react-bootstrap"
+import { FaGlobe } from "react-icons/fa"
 import SocialMediaBar from "./soical-media"
 import Subscribe from "./subscribe"
 
@@ -14,7 +16,7 @@ const Footer = () => (
       }}
       className="text-center background-1"
     >
-      <Row className="im-container text-left">
+      <Row className="im-container text-left mb-4">
         <Col lg={6}>
           <h5>Best in class</h5>
           <p>
@@ -22,19 +24,36 @@ const Footer = () => (
             alks dalkd sa
           </p>
         </Col>
+        <Col lg={3}></Col>
         <Col lg={3}>
-          <h5>Useful Links</h5>
-          <p>link 1</p>
-          <p>link 2</p>
-          <p>link 3</p>
-          <p>link 4</p>
+          <h5>Address</h5>
+          <address>
+            <FaGlobe style={{ margin: `0 5px 2px 1px` }} />
+            <strong>Trading Co, Inc.</strong>
+            <br />
+            Ad Dammam
+            <br />
+            KSA
+            <br />
+          </address>
         </Col>
-        <Col lg={3}>
-          <h5>External Links</h5>
-          <p>link 1</p>
-          <p>link 2</p>
-          <p>link 3</p>
-          <p>link 4</p>
+        <Col className="justify-center text-center">
+          <h5>Useful Links</h5>
+          <Link to="/">
+            <span className="py-1 px-3 text-white">Home</span>
+          </Link>
+          <span className="text-dark">|</span>
+          <Link to="/about">
+            <span className="py-1 px-3 text-white">About Us</span>
+          </Link>
+          <span className="text-dark">|</span>
+          <Link to="/services">
+            <span className="py-1 px-3 text-white">Our Services</span>
+          </Link>
+          <span className="text-dark">|</span>
+          <Link to="/gallery">
+            <span className="py-1 px-3 text-white">Gallery</span>
+          </Link>
         </Col>
       </Row>
       <div style={{ fontSize: 14, marginTop: 10 }}>
