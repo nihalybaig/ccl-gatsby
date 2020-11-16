@@ -43,7 +43,7 @@ const data = [
   {
     title: "Who We Are",
     desc:
-      "We have atoler a sd asmda sd,m as,d as,md dhkadnjas dkasj sasasmda sd,m as,d as,md dhkadnjas dkasj sasasmda sd,m as,d as,md dhkadnjas dkasj sasasmda sd,m as,d as,md dhkadnjas dkasj sasasmda sd,m as,d as,md dhkadnjas dkasj sasasmda sd,m as,d as,md dhkadnjas dkasj sas",
+      "We have atoler a sd asmda sd,m as,d as,md dhkadnjas dkasj sasasmda sd,m as,d as,md dhkadnjas dkasj sasasmda sd,m as,d as,md dhkadnjas dkasj sasasmda sd,m as,d as",
     color: "darkred",
   },
 ]

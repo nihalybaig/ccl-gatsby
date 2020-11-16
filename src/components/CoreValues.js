@@ -1,7 +1,6 @@
 import React from "react"
 import { Card, Col, Row } from "react-bootstrap"
 import { GiCutDiamond } from "react-icons/gi"
-import Image from "./image"
 
 export default function CoreValues({ title = "", items = [] }) {
   return (

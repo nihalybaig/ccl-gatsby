@@ -35,8 +35,8 @@ const Careers = () => {
           <h3 className="my-4 text-center">JOIN OUR TEAM</h3>
           <h5 className="my-4 text-center">
             Welcome to our employment section and apply for positions online.
-            Here are our current job openings. Please click on the job title for
-            more information, and apply from that page if you are interested:
+            Here are our current job openings. Please click on the apply button
+            if you are interested:
           </h5>
         </div>
         <Table striped bordered hover>
