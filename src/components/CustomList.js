@@ -1,7 +1,7 @@
 import { useMediaQuery } from "beautiful-react-hooks"
 import React from "react"
 import { Card, Col, Row } from "react-bootstrap"
-import { GiCutDiamond } from "react-icons/gi"
+import { FaCheckSquare } from "react-icons/fa"
 
 export default function CustomList({ title = "", items = [] }) {
   const isSmall = useMediaQuery("(max-width:768px)")
@@ -40,8 +40,11 @@ export default function CustomList({ title = "", items = [] }) {
                       </h4>
                     ) : (
                       <>
-                        <span className="mr-2">
-                          <GiCutDiamond />
+                        <span
+                          className="mr-2"
+                          style={{ verticalAlign: "text-bottom" }}
+                        >
+                          <FaCheckSquare />
                         </span>
                         <span>{item}</span>
                       </>

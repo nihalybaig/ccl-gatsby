@@ -38,7 +38,6 @@ const Services = () => (
           "dksjn",
           "cheese",
           "cheese",
-          "cheese",
           "<HEAD>",
           "<HEAD>Food",
           "dksjne",
