@@ -14,6 +14,7 @@ import { Divider } from "../components/CommonComponents"
 import BrandCarousel from "../components/BrandCarousel"
 import CustomParaList from "../components/CustomParaList"
 import ProductDetails from "../components/ProductDetails"
+import QualitiesCards from "../components/QualitiesCards"
 
 const IndexPage = () => (
   <Layout>
@@ -76,6 +77,13 @@ const IndexPage = () => (
       <Divider />
       <Row>
         <Col lg={12} className="py-1">
+          <QualitiesCards />
+        </Col>
+      </Row>
+      <Divider />
+
+      <Row>
+        <Col lg={12} className="py-1">
           <h2 className="text-center mb-4">Best in Class</h2>
           <IconTileRow />
         </Col>
@@ -87,6 +95,7 @@ const IndexPage = () => (
           <BrandCarousel />
         </Col>
       </Row>
+
       {/* </Row> */}
       {/* <Link to="/gallery/">Go to page 2</Link> <br />
       <Link to="/using-typescript/">Go to "Using TypeScript"</Link> */}
