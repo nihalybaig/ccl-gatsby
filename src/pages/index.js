@@ -77,7 +77,6 @@ const IndexPage = () => (
       <Divider />
       <Row>
         <Col lg={12} className="py-1">
-          <h2 className="text-center mb-5">Our Qualities</h2>
           <QualitiesCards />
         </Col>
       </Row>
