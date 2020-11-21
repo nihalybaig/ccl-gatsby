@@ -19,8 +19,8 @@ const pages = [
     link: "/services",
   },
   {
-    name: "Gallery",
-    link: "/gallery",
+    name: "Our Products",
+    link: "/products",
   },
   {
     name: "Careers",
@@ -37,7 +37,7 @@ const TopNavbar = ({ sticky }) => {
   return (
     <div
       className={
-        sticky ? "background-2 navbar--container-sticky" : "background-2"
+        sticky ? "background-1 navbar--container-sticky" : "background-1"
       }
     >
       <Navbar

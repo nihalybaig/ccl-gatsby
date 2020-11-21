@@ -3,25 +3,28 @@ import React from "react"
 import productList from "./productList.json"
 import "./product-details.scss"
 import { Link } from "gatsby"
+import Image from "./image"
 
 export default function ProductDetails() {
   return (
     <div className="product-details">
       <Container>
         <Row>
-          {productList.map((te, i) => (
+          {productList.map((prod, i) => (
             <Col lg={4} md={6} xs={12} className="p-2" key={i}>
               <Card className="border-o">
-                <Link to="/gallery">
+                <Link to={`/products${prod.link || ""}`}>
                   <Card.Body className="p-0">
                     <div style={{ overflow: "hidden" }}>
-                      <Card.Img
-                        variant="top"
-                        src={productList[0].image}
-                        alt={te.name}
+                      {/* <Card.Img variant="top"> */}
+                      <Image
+                        // variant="top"
+                        filename={prod.image}
+                        alt={prod.name}
                       />
+                      {/* </Card.Img> */}
                     </div>
-                    <Card.Title className="text-center">{te.name}</Card.Title>
+                    <Card.Title className="text-center">{prod.name}</Card.Title>
                   </Card.Body>
                 </Link>
               </Card>

@@ -1,7 +1,12 @@
 import React from "react"
 import { Row, Col, Card } from "react-bootstrap"
 import CountUp from "react-countup"
-import { AiFillFacebook } from "react-icons/ai"
+import {
+  AiFillAmazonCircle,
+  AiFillAndroid,
+  AiFillCodeSandboxCircle,
+  AiFillFacebook,
+} from "react-icons/ai"
 import VisibilitySensor from "react-visibility-sensor"
 
 const VisibleCounter = ({ count }) => (
@@ -64,28 +69,28 @@ const IconTileRow = () => {
     <Row className="justify-content-md-center align-items-center">
       <Col sm={3}>
         <StatTile
-          icon={<AiFillFacebook />}
+          icon={<AiFillFacebook color="darkblue" />}
           stat={3423}
           desc="dsada ajskd k das"
         />
       </Col>
       <Col sm={3}>
         <StatTile
-          icon={<AiFillFacebook />}
+          icon={<AiFillAmazonCircle color="orange" />}
           stat={32332}
           desc="dsada ajskd k das"
         />
       </Col>
       <Col sm={3}>
         <StatTile
-          icon={<AiFillFacebook />}
+          icon={<AiFillAndroid color="green" />}
           stat={342}
           desc="dsada ajskd k das"
         />
       </Col>
       <Col sm={3}>
         <StatTile
-          icon={<AiFillFacebook />}
+          icon={<AiFillCodeSandboxCircle color="purple" />}
           stat={2323}
           desc="dsada ajskd k das"
         />

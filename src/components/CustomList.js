@@ -12,7 +12,7 @@ export default function CustomList({ title = "", items = [] }) {
   return (
     <div className="px-2 mx-1">
       <h3 className="my-4 text-center">{title}</h3>
-      <Card className="background-1">
+      <Card className="background-2">
         <Card.Body>
           <Row
             style={{

@@ -5,7 +5,7 @@
     .card-body {
       img {
         filter: brightness(55%);
-        transition: 0.4s all;
+        transition: 0.3s all !important;
         height: 200px;
         &:hover {
           transform: scale(1.05);

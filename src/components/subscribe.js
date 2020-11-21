@@ -12,7 +12,7 @@ const Subscribe = () => {
     console.log(event)
   }
   return (
-    <div className="background-1">
+    <div className="background-2">
       <div className="row py-4 d-flex align-items-center im-container">
         <div className="col-12">
           <Form onSubmit={handleSubmit}>

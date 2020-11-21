@@ -34,7 +34,7 @@ export default function QualitiesCards() {
         {itemList.map((item, i) => (
           <Col md={6} xs={12} className="px-4 py-2 py-md-4" key={i}>
             <Card
-              className="background-1"
+              className="background-2"
               style={{ height: "100%" }}
               data-sal={i % 2 ? `slide-left` : `slide-right`}
               data-sal-delay={(i + 1) * 300 + ""}

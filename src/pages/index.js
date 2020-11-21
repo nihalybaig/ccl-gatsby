@@ -13,7 +13,6 @@ import IconTileRow from "../components/iconcard"
 import { Divider } from "../components/CommonComponents"
 import BrandCarousel from "../components/BrandCarousel"
 import CustomParaList from "../components/CustomParaList"
-import ProductDetails from "../components/ProductDetails"
 import QualitiesCards from "../components/QualitiesCards"
 
 const IndexPage = () => (
@@ -40,7 +39,6 @@ const IndexPage = () => (
             "CCL market coverage is supplied with approximately NUMBER OF establishments directly and over 50 OTHER stores indirectly.",
           ]}
         />
-        <ProductDetails />
 
         {/*         <InfoSection
           title="Food"
@@ -74,7 +72,7 @@ const IndexPage = () => (
         </div> */}
       </div>
       {/* <Row className="d-flex justify-content-md-center align-items-center my-5"> */}
-      <Divider />
+      {/* <Divider /> */}
       <Row>
         <Col lg={12} className="py-1">
           <QualitiesCards />
@@ -97,7 +95,7 @@ const IndexPage = () => (
       </Row>
 
       {/* </Row> */}
-      {/* <Link to="/gallery/">Go to page 2</Link> <br />
+      {/* <Link to="/products/">Go to page 2</Link> <br />
       <Link to="/using-typescript/">Go to "Using TypeScript"</Link> */}
     </div>
   </Layout>

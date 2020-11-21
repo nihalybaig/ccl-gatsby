@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Continental Company Ltd`,
-    description: `Continental Logistic offers a full array of services that will help you solve all of your logistic challenges throughout the Kingdom of Saudi Arabia.`,
+    description: `CONTINENTAL COMPANY LTD S.A. is one of the major distributors of imported foods and beverages, and other consumer goods.`,
     author: `@nihalybaig`,
   },
   plugins: [
@@ -21,8 +21,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `continental-company-limited`,
+        short_name: `ccl`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,

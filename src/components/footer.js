@@ -40,19 +40,19 @@ const Footer = () => (
         <Col className="justify-center text-center">
           <h5>Useful Links</h5>
           <Link to="/">
-            <span className="py-1 px-3 text-white">Home</span>
+            <span className="py-1 px-3 text-dark">Home</span>
           </Link>
           <span className="text-dark">|</span>
           <Link to="/about">
-            <span className="py-1 px-3 text-white">About Us</span>
+            <span className="py-1 px-3 text-dark">About Us</span>
           </Link>
           <span className="text-dark">|</span>
           <Link to="/services">
-            <span className="py-1 px-3 text-white">Our Services</span>
+            <span className="py-1 px-3 text-dark">Our Services</span>
           </Link>
           <span className="text-dark">|</span>
-          <Link to="/gallery">
-            <span className="py-1 px-3 text-white">Gallery</span>
+          <Link to="/products">
+            <span className="py-1 px-3 text-dark">Our Products</span>
           </Link>
         </Col>
       </Row>

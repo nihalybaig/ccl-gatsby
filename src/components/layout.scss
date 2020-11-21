@@ -16,13 +16,15 @@
 }
 
 .background-1 {
-  background: $background-color-1;
-  color: $font-color-light;
+  // background: $background-color-1;
+  // color: $font-color-light;
+  background: $color-1;
+  color: $font-color-dark;
 }
 
 .background-2 {
-  background: $color-1;
-  color: $font-color-dark;
+  background: $background-color-1;
+  color: $font-color-light;
 }
 
 a:hover {
