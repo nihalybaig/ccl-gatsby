@@ -1,11 +1,11 @@
-.team-details {
+.product-item-details {
   .card {
     border-radius: 0.5rem;
     overflow: hidden;
     box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.5);
     .card-body {
       img {
-        transition: 0.4s all;
+        transition: 0.3s all !important;
         height: 200px;
         &:hover {
           transform: scale(1.05);

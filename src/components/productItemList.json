@@ -1,0 +1,55 @@
+{
+  "Chicken": [
+    {
+      "name": "Frozen Meat",
+      "image": "prod-feature-images/Banner (1).jpg"
+    },
+    { "name": "Seafood", "image": "prod-feature-images/Banner (3).jpg" },
+    { "name": "Trading", "image": "prod-feature-images/Banner (5).jpg" },
+    { "name": "Beverages", "image": "prod-feature-images/Banner (3).jpg" },
+    { "name": "Seafood", "image": "prod-feature-images/Banner (2).jpg" },
+    { "name": "Trading", "image": "prod-feature-images/Banner (4).jpg" },
+    { "name": "Beverages", "image": "prod-feature-images/Banner (2).jpg" },
+    { "name": "Logistics", "image": "prod-feature-images/Banner (3).jpg" },
+    { "name": "Trading", "image": "prod-feature-images/Banner (2).jpg" },
+    { "name": "Beverages", "image": "prod-feature-images/Banner (4).jpg" },
+    { "name": "Logistics", "image": "prod-feature-images/Banner (2).jpg" },
+    { "name": "Trading", "image": "prod-feature-images/Banner (4).jpg" },
+    { "name": "Frozen Meat", "image": "prod-feature-images/Banner (3).jpg" }
+  ],
+  "Seafood": [
+    {
+      "name": "Frozen Meat",
+      "image": "prod-feature-images/Banner (1).jpg"
+    },
+    { "name": "Seafood", "image": "prod-feature-images/Banner (3).jpg" },
+    { "name": "Trading", "image": "prod-feature-images/Banner (5).jpg" },
+    { "name": "Beverages", "image": "prod-feature-images/Banner (3).jpg" },
+    { "name": "Seafood", "image": "prod-feature-images/Banner (2).jpg" },
+    { "name": "Trading", "image": "prod-feature-images/Banner (4).jpg" },
+    { "name": "Beverages", "image": "prod-feature-images/Banner (2).jpg" },
+    { "name": "Logistics", "image": "prod-feature-images/Banner (3).jpg" }
+  ],
+  "Mutton": [
+    { "name": "Trading", "image": "prod-feature-images/Banner (2).jpg" },
+    { "name": "Beverages", "image": "prod-feature-images/Banner (4).jpg" },
+    { "name": "Logistics", "image": "prod-feature-images/Banner (2).jpg" },
+    { "name": "Trading", "image": "prod-feature-images/Banner (4).jpg" },
+    { "name": "Frozen Meat", "image": "prod-feature-images/Banner (3).jpg" },
+    { "name": "Logistics", "image": "prod-feature-images/Banner (2).jpg" },
+    { "name": "Trading", "image": "prod-feature-images/Banner (1).jpg" }
+  ],
+  "Beef": [
+    { "name": "Beverages", "image": "prod-feature-images/Banner (5).jpg" },
+    { "name": "Logistics", "image": "prod-feature-images/Banner (6).jpg" },
+    { "name": "Trading", "image": "prod-feature-images/Banner (1).jpg" },
+    { "name": "Beverages", "image": "prod-feature-images/Banner (3).jpg" },
+    { "name": "Logistics", "image": "prod-feature-images/Banner (2).jpg" },
+    { "name": "Trading", "image": "prod-feature-images/Banner (1).jpg" }
+  ],
+  "Rice": [
+    { "name": "Beverages", "image": "prod-feature-images/Banner (5).jpg" },
+    { "name": "Logistics", "image": "prod-feature-images/Banner (6).jpg" },
+    { "name": "Trading", "image": "prod-feature-images/Banner (1).jpg" }
+  ]
+}

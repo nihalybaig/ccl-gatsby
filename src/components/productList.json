@@ -1,32 +1,32 @@
 [
   {
-    "name": "Frozen Meat",
+    "name": "Rice",
     "image": "prod-feature-images/Banner (1).jpg",
-    "link": "/chicken"
+    "link": "/rice"
   },
   {
     "name": "Seafood",
     "image": "prod-feature-images/Banner (2).jpg",
-    "link": "/chicken"
+    "link": "/seafood"
   },
   {
-    "name": "Trading",
+    "name": "Chicken",
     "image": "prod-feature-images/Banner (3).jpg",
     "link": "/chicken"
   },
   {
-    "name": "Beverages",
+    "name": "Mutton",
     "image": "prod-feature-images/Banner (4).jpg",
-    "link": "/chicken"
+    "link": "/mutton"
   },
   {
-    "name": "Logistics",
+    "name": "Beef",
     "image": "prod-feature-images/Banner (5).jpg",
-    "link": "/chicken"
+    "link": "/beef"
   },
   {
-    "name": "More ...",
+    "name": "Coming Soon...",
     "image": "prod-feature-images/Banner (6).jpg",
-    "link": "/chicken"
+    "link": ""
   }
 ]

@@ -8,7 +8,7 @@ import { Col, Row } from "react-bootstrap"
 import ProductItemDetails from "../../components/ProductItemDetails"
 
 const GalleryPage = () => {
-  const title = "Chicken"
+  const title = "Mutton"
   return (
     <Layout>
       <SEO title={title} />

@@ -7,7 +7,7 @@ import BreadcrumbComponent from "../components/Breadcrumb"
 import { Divider } from "../components/CommonComponents"
 import CustomList from "../components/CustomList"
 // import { Col, Row } from "react-bootstrap"
-// import TeamDetails from "../components/TeamDetails"
+// import ProductItemDetails from "../components/ProductItemDetails"
 
 const Services = () => (
   <Layout>
