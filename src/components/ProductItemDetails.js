@@ -2,7 +2,7 @@ import { Card, Col, Container, Row } from "react-bootstrap"
 import React from "react"
 import productItemList from "./productItemList.json"
 import "./product-item-details.scss"
-import Image from "./image"
+import Image from "./product-item-image"
 
 export default function ProductItemDetails({ productType = "" }) {
   return (

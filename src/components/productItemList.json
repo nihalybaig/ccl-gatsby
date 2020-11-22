@@ -8,34 +8,40 @@
     { "name": "Chicken Thighs", "image": "prod-item-images/Chicken Thighs.jpg" }
   ],
   "Seafood": [
-    {
-      "name": "Frozen Meat",
-      "image": "prod-item-images/Banner (1).jpg"
-    },
-    { "name": "Seafood", "image": "prod-item-images/Banner (3).jpg" },
-    { "name": "Trading", "image": "prod-item-images/Banner (5).jpg" },
-    { "name": "Beverages", "image": "prod-item-images/Banner (3).jpg" },
-    { "name": "Seafood", "image": "prod-item-images/Banner (2).jpg" },
-    { "name": "Trading", "image": "prod-item-images/Banner (4).jpg" },
-    { "name": "Beverages", "image": "prod-item-images/Banner (2).jpg" },
-    { "name": "Logistics", "image": "prod-item-images/Banner (3).jpg" }
+    { "name": "Fish Fillet", "image": "prod-item-images/Fish Fillet.jpg" },
+    { "name": "Salmon Fillet", "image": "prod-item-images/Salmon Fillet.jpg" },
+    { "name": "Mackarel", "image": "prod-item-images/Mackarel.jpg" },
+    { "name": "King Fish", "image": "prod-item-images/King Fish.jpg" },
+    { "name": "Tiger Shrimp", "image": "prod-item-images/Tiger Shrimp.jpg" },
+    { "name": "Rock Shrimp", "image": "prod-item-images/Rock Shrimp.jpg" },
+    { "name": "White Shrimp", "image": "prod-item-images/White Shrimp.jpg" },
+    { "name": "Pink Shrimp", "image": "prod-item-images/Pink Shrimp.jpg" },
+    { "name": "Blue Crab", "image": "prod-item-images/Blue Crab.jpg" },
+    { "name": "Rock Crab", "image": "prod-item-images/Rock Crab.jpg" },
+    { "name": "King Crab", "image": "prod-item-images/King Crab.jpg" },
+    { "name": "Sand Lobsters", "image": "prod-item-images/Sand Lobsters.jpg" },
+    { "name": "Rock Lobsters", "image": "prod-item-images/Rock Lobsters.jpg" },
+    { "name": "Mussels", "image": "prod-item-images/Mussels.jpg" },
+    { "name": "Squid Tube", "image": "prod-item-images/Squid Tube.jpg" }
   ],
   "Mutton": [
-    { "name": "Trading", "image": "prod-item-images/Banner (2).jpg" },
-    { "name": "Beverages", "image": "prod-item-images/Banner (4).jpg" },
-    { "name": "Logistics", "image": "prod-item-images/Banner (2).jpg" },
-    { "name": "Trading", "image": "prod-item-images/Banner (4).jpg" },
-    { "name": "Frozen Meat", "image": "prod-item-images/Banner (3).jpg" },
-    { "name": "Logistics", "image": "prod-item-images/Banner (2).jpg" },
-    { "name": "Trading", "image": "prod-item-images/Banner (1).jpg" }
+    { "name": "Mutton Carcass 6 Way Cut", "image": "prod-item-images/Mutton Carcass 6 Way Cut.jpg" },
+    { "name": "Mutton Shoulder", "image": "prod-item-images/Mutton Shoulder.jpg" },
+    { "name": "Mutton Leg", "image": "prod-item-images/Mutton Leg.jpg" },
+    { "name": "Mutton Liver", "image": "prod-item-images/Mutton Liver.jpg" },
+    { "name": "Mutton Chops", "image": "prod-item-images/Mutton Chops.jpg" },
+    { "name": "Mutton Flap", "image": "prod-item-images/Mutton Flap.jpg" },
+    { "name": "Lamb Rack", "image": "prod-item-images/Lamb Rack.jpg" }
   ],
   "Beef": [
-    { "name": "Beverages", "image": "prod-item-images/Banner (5).jpg" },
-    { "name": "Logistics", "image": "prod-item-images/Banner (6).jpg" },
-    { "name": "Trading", "image": "prod-item-images/Banner (1).jpg" },
-    { "name": "Beverages", "image": "prod-item-images/Banner (3).jpg" },
-    { "name": "Logistics", "image": "prod-item-images/Banner (2).jpg" },
-    { "name": "Trading", "image": "prod-item-images/Banner (1).jpg" }
+    { "name": "Beef Chuck", "image": "prod-item-images/Beef Chuck.jpg" },
+    { "name": "Beef Forequarter", "image": "prod-item-images/Beef Forequarter.jpg" },
+    { "name": "Beef Ribs", "image": "prod-item-images/Beef Ribs.jpg" },
+    { "name": "Beef Round", "image": "prod-item-images/Beef Round.jpg" },
+    { "name": "Beef Shank and Brisket", "image": "prod-item-images/Beef Shank and Brisket.jpg" },
+    { "name": "Beef Shortloin", "image": "prod-item-images/Beef Shortloin.jpg" },
+    { "name": "Beef Striploin", "image": "prod-item-images/Beef Striploin.jpg" },
+    { "name": "Beef Tenderloin", "image": "prod-item-images/Beef Tenderloin.jpg" }
   ],
   "Rice": [
     { "name": "INDIAN MAZZA BASMTI RICE", "image": "prod-item-images/Rice (1).jpg" },
