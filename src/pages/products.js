@@ -14,7 +14,7 @@ const GalleryPage = () => (
 
     <div className="im-container-1">
       <Row>
-        <Col lg={12} className="py-1">
+        <Col lg={12} className="pb-1">
           <h2 className="text-center">Our Range of Products</h2>
           <ProductDetails />
         </Col>

@@ -1,32 +1,32 @@
 [
   {
-    "name": "Rice",
-    "image": "prod-feature-images/Banner (1).jpg",
-    "link": "/rice"
-  },
-  {
-    "name": "Seafood",
-    "image": "prod-feature-images/Banner (2).jpg",
-    "link": "/seafood"
-  },
-  {
     "name": "Chicken",
-    "image": "prod-feature-images/Banner (3).jpg",
+    "image": "prod-feature-images/Chicken.jpg",
     "link": "/chicken"
   },
   {
+    "name": "Seafood",
+    "image": "prod-feature-images/Seafood.jpg",
+    "link": "/seafood"
+  },
+  {
+    "name": "Rice",
+    "image": "prod-feature-images/Rice.jpg",
+    "link": "/rice"
+  },
+  {
     "name": "Mutton",
-    "image": "prod-feature-images/Banner (4).jpg",
+    "image": "prod-feature-images/Mutton.jpg",
     "link": "/mutton"
   },
   {
     "name": "Beef",
-    "image": "prod-feature-images/Banner (5).jpg",
+    "image": "prod-feature-images/Beef.jpg",
     "link": "/beef"
   },
   {
     "name": "Coming Soon...",
-    "image": "prod-feature-images/Banner (6).jpg",
+    "image": "prod-feature-images/More.jpg",
     "link": ""
   }
 ]

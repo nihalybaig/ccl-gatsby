@@ -1,55 +1,45 @@
 {
   "Chicken": [
-    {
-      "name": "Frozen Meat",
-      "image": "prod-feature-images/Banner (1).jpg"
-    },
-    { "name": "Seafood", "image": "prod-feature-images/Banner (3).jpg" },
-    { "name": "Trading", "image": "prod-feature-images/Banner (5).jpg" },
-    { "name": "Beverages", "image": "prod-feature-images/Banner (3).jpg" },
-    { "name": "Seafood", "image": "prod-feature-images/Banner (2).jpg" },
-    { "name": "Trading", "image": "prod-feature-images/Banner (4).jpg" },
-    { "name": "Beverages", "image": "prod-feature-images/Banner (2).jpg" },
-    { "name": "Logistics", "image": "prod-feature-images/Banner (3).jpg" },
-    { "name": "Trading", "image": "prod-feature-images/Banner (2).jpg" },
-    { "name": "Beverages", "image": "prod-feature-images/Banner (4).jpg" },
-    { "name": "Logistics", "image": "prod-feature-images/Banner (2).jpg" },
-    { "name": "Trading", "image": "prod-feature-images/Banner (4).jpg" },
-    { "name": "Frozen Meat", "image": "prod-feature-images/Banner (3).jpg" }
+    { "name": "Chicken Whole", "image": "prod-item-images/Chicken Whole.jpg" },
+    { "name": "Chicken Leg Quarter", "image": "prod-item-images/Chicken Leg Quarter.jpg" },
+    { "name": "Chicken Liver", "image": "prod-item-images/Chicken Liver.jpg" },
+    { "name": "Chicken Gizzard", "image": "prod-item-images/Chicken Gizzard.jpg" },
+    { "name": "Chicken Drumsticks", "image": "prod-item-images/Chicken Drumsticks.jpg" },
+    { "name": "Chicken Thighs", "image": "prod-item-images/Chicken Thighs.jpg" }
   ],
   "Seafood": [
     {
       "name": "Frozen Meat",
-      "image": "prod-feature-images/Banner (1).jpg"
+      "image": "prod-item-images/Banner (1).jpg"
     },
-    { "name": "Seafood", "image": "prod-feature-images/Banner (3).jpg" },
-    { "name": "Trading", "image": "prod-feature-images/Banner (5).jpg" },
-    { "name": "Beverages", "image": "prod-feature-images/Banner (3).jpg" },
-    { "name": "Seafood", "image": "prod-feature-images/Banner (2).jpg" },
-    { "name": "Trading", "image": "prod-feature-images/Banner (4).jpg" },
-    { "name": "Beverages", "image": "prod-feature-images/Banner (2).jpg" },
-    { "name": "Logistics", "image": "prod-feature-images/Banner (3).jpg" }
+    { "name": "Seafood", "image": "prod-item-images/Banner (3).jpg" },
+    { "name": "Trading", "image": "prod-item-images/Banner (5).jpg" },
+    { "name": "Beverages", "image": "prod-item-images/Banner (3).jpg" },
+    { "name": "Seafood", "image": "prod-item-images/Banner (2).jpg" },
+    { "name": "Trading", "image": "prod-item-images/Banner (4).jpg" },
+    { "name": "Beverages", "image": "prod-item-images/Banner (2).jpg" },
+    { "name": "Logistics", "image": "prod-item-images/Banner (3).jpg" }
   ],
   "Mutton": [
-    { "name": "Trading", "image": "prod-feature-images/Banner (2).jpg" },
-    { "name": "Beverages", "image": "prod-feature-images/Banner (4).jpg" },
-    { "name": "Logistics", "image": "prod-feature-images/Banner (2).jpg" },
-    { "name": "Trading", "image": "prod-feature-images/Banner (4).jpg" },
-    { "name": "Frozen Meat", "image": "prod-feature-images/Banner (3).jpg" },
-    { "name": "Logistics", "image": "prod-feature-images/Banner (2).jpg" },
-    { "name": "Trading", "image": "prod-feature-images/Banner (1).jpg" }
+    { "name": "Trading", "image": "prod-item-images/Banner (2).jpg" },
+    { "name": "Beverages", "image": "prod-item-images/Banner (4).jpg" },
+    { "name": "Logistics", "image": "prod-item-images/Banner (2).jpg" },
+    { "name": "Trading", "image": "prod-item-images/Banner (4).jpg" },
+    { "name": "Frozen Meat", "image": "prod-item-images/Banner (3).jpg" },
+    { "name": "Logistics", "image": "prod-item-images/Banner (2).jpg" },
+    { "name": "Trading", "image": "prod-item-images/Banner (1).jpg" }
   ],
   "Beef": [
-    { "name": "Beverages", "image": "prod-feature-images/Banner (5).jpg" },
-    { "name": "Logistics", "image": "prod-feature-images/Banner (6).jpg" },
-    { "name": "Trading", "image": "prod-feature-images/Banner (1).jpg" },
-    { "name": "Beverages", "image": "prod-feature-images/Banner (3).jpg" },
-    { "name": "Logistics", "image": "prod-feature-images/Banner (2).jpg" },
-    { "name": "Trading", "image": "prod-feature-images/Banner (1).jpg" }
+    { "name": "Beverages", "image": "prod-item-images/Banner (5).jpg" },
+    { "name": "Logistics", "image": "prod-item-images/Banner (6).jpg" },
+    { "name": "Trading", "image": "prod-item-images/Banner (1).jpg" },
+    { "name": "Beverages", "image": "prod-item-images/Banner (3).jpg" },
+    { "name": "Logistics", "image": "prod-item-images/Banner (2).jpg" },
+    { "name": "Trading", "image": "prod-item-images/Banner (1).jpg" }
   ],
   "Rice": [
-    { "name": "Beverages", "image": "prod-feature-images/Banner (5).jpg" },
-    { "name": "Logistics", "image": "prod-feature-images/Banner (6).jpg" },
-    { "name": "Trading", "image": "prod-feature-images/Banner (1).jpg" }
+    { "name": "INDIAN MAZZA BASMTI RICE", "image": "prod-item-images/Rice (1).jpg" },
+    { "name": "INDIAN GOLDEN MAZZA BASMATI RICE", "image": "prod-item-images/Rice (2).jpg" },
+    { "name": "1121 STEAM BASMATI RICE", "image": "prod-item-images/Rice (3).jpg" }
   ]
 }

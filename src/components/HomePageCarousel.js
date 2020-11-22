@@ -3,7 +3,7 @@ import { Carousel } from "react-bootstrap"
 import HomeCarouselImage from "./home-carousel-image"
 import "./home-page-carousel.scss"
 
-const totalCarouselImages = 7
+const totalCarouselImages = 12
 
 export default function HomePageCarousel() {
   return (

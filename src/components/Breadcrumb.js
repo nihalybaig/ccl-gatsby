@@ -5,7 +5,7 @@ import "./breadcrumb.scss"
 
 export default function BreadcrumbComponent({ current = "", prev = "" }) {
   return (
-    <div className="background-2 p-lg-2 mb-5">
+    <div className="background-2 p-lg-2 mb-4">
       <div className="im-container">
         <Breadcrumb>
           <Breadcrumb.Item>
