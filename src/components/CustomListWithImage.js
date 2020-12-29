@@ -1,23 +1,20 @@
 import React from "react"
 import { Card, Col, Row } from "react-bootstrap"
-import { GiCutDiamond } from "react-icons/gi"
 import Image from "./image"
 
-export default function CustomListWithImage({ title = "", items = [] }) {
+export default function CustomListWithImage({ title = "", items = [], img }) {
   return (
     <div className="my-5">
       <h3 className="my-4 text-center">{title}</h3>
       <Card className="background-1">
         <Card.Body>
           <Row>
-            <Col lg={6}>
+            <Col lg={6} className="pl-5">
               {items.map((item, i) => (
-                <p key={i}>
-                  <span className="mr-2">
-                    <GiCutDiamond />
-                  </span>
-                  <span>{item}</span>
-                </p>
+                <>
+                  <span key={i}>{item}</span>
+                  <br />
+                </>
               ))}
             </Col>
             <Col lg={6}>
@@ -27,10 +24,7 @@ export default function CustomListWithImage({ title = "", items = [] }) {
                 data-sal-easing="ease"
               >
                 <div style={{ margin: "0 auto" }}>
-                  <Image
-                    alt={"site-images/aboutus.jpg"}
-                    filename={"site-images/aboutus.jpg"}
-                  />
+                  <Image alt={img} filename={img} />
                 </div>
               </div>
             </Col>

@@ -6,56 +6,70 @@ import InfoSection from "../components/InfoSection"
 import BreadcrumbComponent from "../components/Breadcrumb"
 import { Divider } from "../components/CommonComponents"
 import CustomList from "../components/CustomList"
+import CustomListColumns from "../components/CustomListColumns"
 // import { Col, Row } from "react-bootstrap"
 // import ProductItemDetails from "../components/ProductItemDetails"
+
+const whatWeSellData = [
+  "<HEAD>Rice",
+  "Basmati Rice",
+  "Basmati Rice 1121",
+  "Basmati Rice 1401",
+  "Basmati Rice 1509",
+  "Sharbati Basmati Rice",
+  "Sugandha Basmati Rice",
+  "Non-Basmati Rice IR64",
+  "Long Grain Non-Basmati",
+  "Parmal Rice PR : PR11, PR 14, PR 16",
+  "Sona Masuri Rice (Sona Masoori Rice)",
+  "<HEAD>Seafood",
+  "Sardines",
+  "Salmon",
+  "Tilapia",
+  "Fish fillet",
+  "Lobster",
+  "Prawns",
+  "Shrimp",
+  "<HEAD>",
+  "<HEAD>",
+  "<HEAD>Chicken",
+  "Chicken leg",
+  "Whole chicken",
+  "Chicken drumstick",
+  "Chicken thigh (bone in)",
+  "Chicken whole leg (back attached)",
+  "Chicken breast fillets (or tenders)",
+  "<HEAD>",
+  "<HEAD>Mutton",
+  "Shoulder",
+  "Chop/Rack",
+  "Loin Chop",
+  "Rump",
+  "Leg",
+  "Shank",
+  "Neck",
+  "<HEAD>Beef",
+  "Chuck",
+  "Rib",
+  "Loin",
+  "Eye Round",
+  "Flank",
+  "Brisket ",
+  "Shank",
+]
 
 const Services = () => (
   <Layout>
     <SEO title="Services" />
     <BreadcrumbComponent current="Services" />
     <div className="im-container">
-      <CustomList
-        title="WHAT WE SELL"
-        items={[
-          "<HEAD>Rice",
-          "dksjn",
-          "cheese",
-          "dksjn",
-          "cheese",
-          "dksjn",
-          "cheese",
-          "dksjn",
-          "cheese",
-          "dksjn",
-          "<HEAD>Seafood",
-          "dksjn",
-          "dksjn",
-          "pepsi",
-          "pepsi",
-          "<HEAD>",
-          "<HEAD>",
-          "<HEAD>Chicken",
-          "dksjn",
-          "cheese",
-          "cheese",
-          "<HEAD>",
-          "<HEAD>Mutton",
-          "dksjne",
-          "dksjne",
-          "dksjne",
-          "cheese",
-          "<HEAD>Beef",
-          "cheese",
-          "dksjn",
-          "cheese",
-          "dksjn",
-        ]}
-      />
+      <CustomList title="WHAT WE SELL" items={whatWeSellData} />
+      <CustomListColumns title="WHAT WE SELL" items={whatWeSellData} />
       <div className="m-2 p-2">
         <br />
       </div>
       <InfoSection
-        title="Food and Beverages"
+        title="Food"
         text="<p>
             We are having 3000 or more food products and are still counting. We
             deal with all top brands and distributors. We always ensure the
@@ -78,7 +92,7 @@ const Services = () => (
       />
       <Divider />
       <InfoSection
-        title="Frozen Meat"
+        title="Beverages"
         text="<p>
             We are having 3000 or more food products and are still counting. We
             deal with all top brands and distributors. We always ensure the

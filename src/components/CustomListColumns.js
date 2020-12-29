@@ -4,10 +4,10 @@ import { Card, Col, Row } from "react-bootstrap"
 import { FaCheckSquare } from "react-icons/fa"
 
 export default function CustomList({ title = "", items = [] }) {
-  const isSmall = true //useMediaQuery("(max-width:768px)")
+  const isSmall = useMediaQuery("(max-width:768px)")
   const isMedium = useMediaQuery("(max-width:992px)")
 
-  const maxHeightValue = isSmall ? "unset" : isMedium ? 900 : 580
+  const maxHeightValue = isSmall ? "unset" : isMedium ? 900 : 600
 
   return (
     <div className="px-2 mx-1">
@@ -23,8 +23,8 @@ export default function CustomList({ title = "", items = [] }) {
           >
             {items.map((item, i) => (
               <Col
-                lg={item.indexOf("<HEAD>") >= 0 ? 12 : 4}
-                md={item.indexOf("<HEAD>") >= 0 ? 12 : 6}
+                lg={4}
+                md={6}
                 xs={item.indexOf("<HEAD>") >= 0 ? 12 : 6}
                 key={i}
               >

@@ -90,9 +90,11 @@ export default function ContactForm() {
                 <h2>Address</h2>
                 <address>
                   <FaGlobe style={{ margin: `0 5px 2px 1px` }} />
-                  <strong>Trading Co, Inc.</strong>
+                  <strong>Continental Company Ltd.</strong>
                   <br />
-                  Ad Dammam
+                  Continental FOODS Division
+                  <br />
+                  P O Box 1973, Dammam 34271
                   <br />
                   KSA
                   <br />

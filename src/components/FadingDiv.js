@@ -21,51 +21,51 @@ import "./fadingdiv.scss"
 ]
  */
 
-const data = [
-  {
-    title: "Who We Are",
-    desc:
-      "as,md dhkadnjas dkasj sasas,md dhkadnjas dkasj sasas,md dhkadnjas dkasj sasas,md dhkadnjas dkasj sasWe have atoler a sd asmda sd,m as,d as,md dhkadnjas dkasj sas",
-    color: "darkslateblue",
-  },
-  {
-    title: "What We Do",
-    desc:
-      "We have atoler a sd asmda sd,moler a sd asmda sd,moler a sd asmda sd,moler a sd asmda sd,moler a sd asmda sd,m as,d as,md dhkadnjas dkasj sas",
-    color: "darkgoldenrod",
-  },
-  {
-    title: "Why Us",
-    desc:
-      "We havedkas  dsa dkas dasild klas dlkas kdl aslk dlad sakdlkas d laksd lka sdlas kdaskld asl atoler a sd asmda sd,m as,d as,md dhkadnjas dkasj sas",
-    color: "darkolivegreen",
-  },
-  {
-    title: "Who We Are",
-    desc:
-      "We have atoler a sd asmda sd,m as,d as,md dhkadnjas dkasj sasasmda sd,m as,d as,md dhkadnjas dkasj sasasmda sd,m as,d as,md dhkadnjas dkasj sasasmda sd,m as,d as",
-    color: "darkred",
-  },
-]
+const FadingDiv = ({
+  data = [
+    {
+      title: "Who We Are",
+      desc:
+        "as,md dhkadnjas dkasj sasas,md dhkadnjas dkasj sasas,md dhkadnjas dkasj sasas,md dhkadnjas dkasj sasWe have atoler a sd asmda sd,m as,d as,md dhkadnjas dkasj sas",
+      color: "darkslateblue",
+    },
+    {
+      title: "What We Do",
+      desc:
+        "We have atoler a sd asmda sd,moler a sd asmda sd,moler a sd asmda sd,moler a sd asmda sd,moler a sd asmda sd,m as,d as,md dhkadnjas dkasj sas",
+      color: "darkgoldenrod",
+    },
+    {
+      title: "Why Us",
+      desc:
+        "We havedkas  dsa dkas dasild klas dlkas kdl aslk dlad sakdlkas d laksd lka sdlas kdaskld asl atoler a sd asmda sd,m as,d as,md dhkadnjas dkasj sas",
+      color: "darkolivegreen",
+    },
+    {
+      title: "Who We Are",
+      desc:
+        "We have atoler a sd asmda sd,m as,d as,md dhkadnjas dkasj sasasmda sd,m as,d as,md dhkadnjas dkasj sasasmda sd,m as,d as,md dhkadnjas dkasj sasasmda sd,m as,d as",
+      color: "darkred",
+    },
+  ],
+}) => {
+  const pages = data.map(d => ({ style }) => {
+    return (
+      <animated.div style={{ ...style, color: d.color || "darkblue" }}>
+        <div className="d-block">
+          <h4 className="text-center">{d.title}</h4>
+          <hr />
+          <p>{d.desc}</p>
+        </div>
+      </animated.div>
+    )
+  })
 
-const pages = data.map(d => ({ style }) => {
-  return (
-    <animated.div style={{ ...style, color: d.color || "darkblue" }}>
-      <div className="d-block">
-        <h4 className="text-center">{d.title}</h4>
-        <hr />
-        <p>{d.desc}</p>
-      </div>
-    </animated.div>
-  )
-})
-
-const FadingDiv = () => {
   const [index, set] = useState(0)
   useEffect(
     () =>
       void setInterval(() => set(state => (state + 1) % pages.length), 4000),
-    []
+    [pages.length]
   )
 
   const transitions = useTransition(index, p => p, {

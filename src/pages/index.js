@@ -14,6 +14,7 @@ import { Divider } from "../components/CommonComponents"
 import BrandCarousel from "../components/BrandCarousel"
 import CustomParaList from "../components/CustomParaList"
 import QualitiesCards from "../components/QualitiesCards"
+// import InfoSection from "../components/InfoSection"
 
 const IndexPage = () => (
   <Layout>
@@ -31,48 +32,79 @@ const IndexPage = () => (
             well as supermarket chains.  We dominate the supermarket,
             convenience and horeca markets.
           </p>
+          <p>
+            The name “CONTINENTAL company ltd” reflects Business Centricity
+            Focus (i.e. Continental) with a Kingdom Wide product reach, hence
+            “Continental has Product Development and Trade Experience of more
+            than 12 years. The company strongly Believes that (1) Quality
+            Leadership via Deep Technical Product Knowledge (2) Operational
+            Efficiency via Execution Excellence (3Technology and Digital
+            Infrastructure are the three pillars of Growth, Sustainability and
+            above all “Customer Satisfaction”.
+          </p>
+          <p>
+            Continental is a company in KSA and a strong background of Product
+            Quality Compliance of International Standards. Highest Quality of
+            Rice distributor Processed under our leadership (Milling & Packing)
+            and Transported ensuring Standardized Class “Quality Assurance”.
+          </p>
+          <p>
+            The company staff takes pride in closely working with paddy farmers
+            in South Asia and ensuring that the continental Trade Benefits flow
+            fairly amongst the complete value chain. The company is also
+            dedicated towards environmental upgradation and natural agricultural
+            practices.
+          </p>
         </div>
         <CustomParaList
+          img="site-images/aboutus.jpg"
           title=""
           items={[
             "CONTINENTAL COMPANY LTD S.A. is dedicated in using its resources to gain market share aggressively in the years to come.  We strive to promote our quality brands with our knowledge of this market place.  CCL is proud of its accomplishments to this date and is ready to take advantage of new challenges to come, while expanding and strengthening to new horizons of our business.",
             "CCL market coverage is supplied with approximately NUMBER OF establishments directly and over 50 OTHER stores indirectly.",
           ]}
         />
-
-        {/*         <InfoSection
-          title="Food"
-          text="<p>
-            We are having 3000 or more food products and are still counting. We
-            deal with all top brands and distributors. We always ensure the
-            quality, quantity and the availability of products
-          </p>
-          <p>
-            Canned &amp; Preserved, Grains &amp; Cereals, Specialty Products,
-            Sweets, Snacks &amp; Bakery, Coffee, Infusions, Canned Foods,
-            Mustards &amp; Relishes, Concentrates &amp; Marinades, Conserves,
-            Honey &amp; Jams, Dressings, Sauces, Dips &amp; Pastes, Finished
-            products, Oil &amp; Vinegar, Preserves &amp; Spreads, Spices,
-            Seasonings &amp; Salts, Breakfast Cereals, Corn, Flour &amp; Starch,
-            Pasta &amp; Noodles, Seeds, Beans &amp; Pulses, Rice &amp; Rice
-            Products, Diet Products, Biscuits &amp; Cookies, Cakes, Puddings
-            &amp; Mixes, Candy, Gum, Lollipops &amp; Mints, Chocolate, Cocoa,
-            Toffee, Crisps &amp; Crackers, Healthy Snacks, Nuts, Dried Fruits,
-            Popcorn, Olives &amp; Pickled Snacks
+        <h5>Responsibilty</h5>
+        <p>
+          Continental along with its Companies matches commercial ambition with
+          a sense of responsibility towards environment, people and law of land.
+          The company is committed to protect its own business interests along
+          with interests of associated communities and the environment. Our
+          planning and actions “makes a big difference”.
+        </p>
+        <h5>Approach</h5>
+        <p>
+          Continental maintains the highest Industry Standards for Business
+          Operations. In order to manage commercial activities and growth
+          endeavors, Continental maintains a working platform, diversified
+          experience and specialized performance.
+        </p>
+        {/* <Row>
+          <Col lg={12} className="py-1">
+            <InfoSection
+              title="Responsibility"
+              text="<p>
+          Continental along with its Companies matches commercial ambition with a sense of responsibility towards environment, people and law of land. The company is committed to protect its own business interests along with interests of associated communities and the environment. Our planning and actions “makes a big difference”.
           </p>"
-          img="site-images/2 (2).jpg"
-        /> */}
-        {/* <div data-sal="fade" data-sal-delay="300" data-sal-easing="ease">
-          <div style={{ marginBottom: `1.45rem` }}>
-            <Image
-              alt="dsas"
-              filename="optimizing-images/gatsby-astronaut.png"
+              img="carousel-images/6.jpg"
+              reverse={true}
             />
-          </div>
-        </div> */}
+          </Col>
+        </Row>
+        <Divider />
+        <Row>
+          <Col lg={12} className="py-1">
+            <InfoSection
+              title="Approach"
+              text="<p>
+          Continental maintains the highest Industry Standards for Business Operations. In order to manage commercial activities and growth endeavors, Continental maintains a working platform, diversified experience and specialized performance.
+          </p>"
+              img="carousel-images/0.jpg"
+            />
+          </Col>
+        </Row>
+        <Divider /> */}
       </div>
-      {/* <Row className="d-flex justify-content-md-center align-items-center my-5"> */}
-      {/* <Divider /> */}
       <Row>
         <Col lg={12} className="py-1">
           <QualitiesCards />

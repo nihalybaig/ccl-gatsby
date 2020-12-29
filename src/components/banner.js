@@ -5,7 +5,7 @@ import { AiOutlinePhone, AiOutlineMail } from "react-icons/ai"
 import { useMediaQuery } from "beautiful-react-hooks"
 import { Link } from "gatsby"
 
-const email = "abc@gmail.com"
+const email = "info@cclarabia.com"
 const phone = "9876543210"
 
 const Banner = () => {

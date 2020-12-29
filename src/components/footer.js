@@ -20,18 +20,20 @@ const Footer = () => (
         <Col lg={6}>
           <h5>Best in class</h5>
           <p>
-            kdlsam dka daslk dals lkas dlka sdlkas dl laks dlak sld asld aklsd
-            alks dalkd sa
+            Provide Highest Quality and Reliable products to KSA Markets via
+            Custom Manufacturing & Trading.
           </p>
         </Col>
-        <Col lg={3}></Col>
-        <Col lg={3}>
+        <Col lg={2}></Col>
+        <Col lg={4}>
           <h5>Address</h5>
           <address>
             <FaGlobe style={{ margin: `0 5px 2px 1px` }} />
-            <strong>Trading Co, Inc.</strong>
+            <strong>Continental Company Ltd.</strong>
             <br />
-            Ad Dammam
+            Continental FOODS Division
+            <br />
+            P O Box 1973, Dammam 34271
             <br />
             KSA
             <br />

@@ -2,7 +2,11 @@ import React from "react"
 import { Card, Col, Row } from "react-bootstrap"
 import Image from "./image"
 
-export default function CustomParaList({ title = "", items = [] }) {
+export default function CustomParaList({
+  title = "",
+  items = [],
+  img = "site-images/aboutus.jpg",
+}) {
   return (
     <div className="my-5">
       <h3 className="my-4 text-center">{title}</h3>
@@ -23,10 +27,7 @@ export default function CustomParaList({ title = "", items = [] }) {
                 data-sal-easing="ease"
               >
                 <div style={{ margin: "0 auto" }}>
-                  <Image
-                    alt={"site-images/aboutus.jpg"}
-                    filename={"site-images/aboutus.jpg"}
-                  />
+                  <Image alt={img} filename={img} />
                 </div>
               </div>
             </Col>

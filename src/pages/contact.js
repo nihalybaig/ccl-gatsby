@@ -19,7 +19,7 @@ const Contact = () => (
             <div className="col-lg-12 py-3">
               <iframe
                 title="contact map"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d913159.3337189268!2d48.974442104861154!3d26.61552849103558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e361d32276b3403%3A0xefd901ec7a5e5676!2sDammam%20Saudi%20Arabia!5e0!3m2!1sen!2sin!4v1604508732448!5m2!1sen!2sin"
+                src="https://maps.app.goo.gl/5am1Zd3uhjukhXX76"
                 width="100%"
                 height="500px"
                 style={{ border: `0` }}
