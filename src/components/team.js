@@ -1,7 +1,7 @@
 import React from "react"
 import teamList from "./teamList.json"
 
-const team = () => {
+const Team = () => {
   return (
     <div className="companies">
       {teamList.map(te => (
@@ -16,4 +16,4 @@ const team = () => {
   )
 }
 
-export default team
+export default Team

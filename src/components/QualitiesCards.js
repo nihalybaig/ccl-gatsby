@@ -1,28 +1,33 @@
 import React from "react"
 import { Card, Col, Row } from "react-bootstrap"
-import { GiCutDiamond, Gi3DHammer, Gi3DStairs, GiAbacus } from "react-icons/gi"
+import { FaShippingFast } from "react-icons/fa"
+import { RiEmotionHappyLine } from "react-icons/ri"
+import { GiCutDiamond, GiAbacus } from "react-icons/gi"
 
 const itemList = [
   {
-    title: "WIDE RANGE OF PRODUCTS",
-    description: "dsfdafbgb sakd laks dlaks dlk asld k",
+    title: "QUALITY",
+    description:
+      "First no compromise value for money You Can be confident always",
     icon: <GiCutDiamond />,
   },
   {
-    title: "SUPERFAST DELIVERY",
-    description: "dsfdadsfsdff sadkj sadasld ald asd lak dalks dbgb",
+    title: "WIDE RANGE OF PRODUCTS",
+    description:
+      "We deal with a great variety of different things We deliver food, groceries, packages",
     icon: <GiAbacus />,
   },
   {
-    title: "QUALITY FIRST",
-    description: "bgdjaskld aslk dalks dkla slkd alsd al sdlkb",
-    icon: <Gi3DHammer />,
+    title: "SUPERFAST DELIVERY",
+    description:
+      "You can order online or call anytime to have something delivered to anywhere across KSA",
+    icon: <FaShippingFast />,
   },
   {
     title: "CUSTOMER SATISFACTION",
     description:
-      "dsfdfsdf afbgbsa kd salkd asld lkas dklas dlk aslkd als dlkas d",
-    icon: <Gi3DStairs />,
+      "Our teams have been trained to always behave in a courteous, professional manner",
+    icon: <RiEmotionHappyLine />,
   },
 ]
 

@@ -4,24 +4,12 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import InfoSection from "../components/InfoSection"
 import BreadcrumbComponent from "../components/Breadcrumb"
-import { Divider } from "../components/CommonComponents"
-import CustomList from "../components/CustomList"
+// import { Divider } from "../components/CommonComponents"
 import CustomListColumns from "../components/CustomListColumns"
 // import { Col, Row } from "react-bootstrap"
 // import ProductItemDetails from "../components/ProductItemDetails"
 
 const whatWeSellData = [
-  "<HEAD>Rice",
-  "Basmati Rice",
-  "Basmati Rice 1121",
-  "Basmati Rice 1401",
-  "Basmati Rice 1509",
-  "Sharbati Basmati Rice",
-  "Sugandha Basmati Rice",
-  "Non-Basmati Rice IR64",
-  "Long Grain Non-Basmati",
-  "Parmal Rice PR : PR11, PR 14, PR 16",
-  "Sona Masuri Rice (Sona Masoori Rice)",
   "<HEAD>Seafood",
   "Sardines",
   "Salmon",
@@ -48,6 +36,8 @@ const whatWeSellData = [
   "Leg",
   "Shank",
   "Neck",
+  "<HEAD>",
+  "<HEAD>",
   "<HEAD>Beef",
   "Chuck",
   "Rib",
@@ -56,6 +46,35 @@ const whatWeSellData = [
   "Flank",
   "Brisket ",
   "Shank",
+  "<HEAD>Rice",
+  "Basmati Rice",
+  "Basmati Rice 1121",
+  "Basmati Rice 1401",
+  "Basmati Rice 1509",
+  "Sharbati Basmati Rice",
+  "Sugandha Basmati Rice",
+  "Non-Basmati Rice IR64",
+  "Long Grain Non-Basmati",
+  "Parmal Rice PR : PR11, PR 14, PR 16",
+  "Sona Masuri Rice (Sona Masoori Rice)",
+  "<HEAD>",
+  "<HEAD>",
+  "<HEAD>",
+  "<HEAD>",
+  "<HEAD>",
+  "<HEAD>",
+  "<HEAD>",
+  "<HEAD>",
+  "<HEAD>",
+  "<HEAD>",
+  "<HEAD>",
+  "<HEAD>",
+  "<HEAD>",
+  "<HEAD>",
+  "<HEAD>",
+  "<HEAD>",
+  "<HEAD>",
+  "<HEAD>",
 ]
 
 const Services = () => (
@@ -63,13 +82,12 @@ const Services = () => (
     <SEO title="Services" />
     <BreadcrumbComponent current="Services" />
     <div className="im-container">
-      <CustomList title="WHAT WE SELL" items={whatWeSellData} />
       <CustomListColumns title="WHAT WE SELL" items={whatWeSellData} />
       <div className="m-2 p-2">
         <br />
       </div>
       <InfoSection
-        title="Food"
+        title="Food and Beverages"
         text="<p>
             We are having 3000 or more food products and are still counting. We
             deal with all top brands and distributors. We always ensure the
@@ -90,7 +108,7 @@ const Services = () => (
           </p>"
         img="site-images/1 (2).jpg"
       />
-      <Divider />
+      {/* <Divider />
       <InfoSection
         title="Beverages"
         text="<p>
@@ -107,7 +125,7 @@ const Services = () => (
           </p>"
         img="site-images/2 (2).jpg"
         reverse={true}
-      />
+      /> */}
     </div>
   </Layout>
 )

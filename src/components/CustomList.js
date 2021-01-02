@@ -39,15 +39,12 @@ export default function CustomList({ title = "", items = [] }) {
                         {item.split("<HEAD>")[1]}
                       </h4>
                     ) : (
-                      <>
-                        <span
-                          className="mr-2"
-                          style={{ verticalAlign: "text-bottom" }}
-                        >
+                      <Row>
+                        <Col xs={1} style={{ verticalAlign: "text-bottom" }}>
                           <FaCheckSquare />
-                        </span>
-                        <span>{item}</span>
-                      </>
+                        </Col>
+                        <Col xs={10}>{item}</Col>
+                      </Row>
                     )}
                   </p>
                 ) : (

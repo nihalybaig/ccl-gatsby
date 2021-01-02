@@ -31,7 +31,7 @@ const Footer = () => (
             <FaGlobe style={{ margin: `0 5px 2px 1px` }} />
             <strong>Continental Company Ltd.</strong>
             <br />
-            Continental FOODS Division
+            C.R. : 2050133248
             <br />
             P O Box 1973, Dammam 34271
             <br />

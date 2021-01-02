@@ -7,7 +7,7 @@ export default function CustomList({ title = "", items = [] }) {
   const isSmall = useMediaQuery("(max-width:768px)")
   const isMedium = useMediaQuery("(max-width:992px)")
 
-  const maxHeightValue = isSmall ? "unset" : isMedium ? 900 : 600
+  const maxHeightValue = isSmall ? "unset" : isMedium ? 800 : 610
 
   return (
     <div className="px-2 mx-1">
@@ -39,15 +39,12 @@ export default function CustomList({ title = "", items = [] }) {
                         {item.split("<HEAD>")[1]}
                       </h4>
                     ) : (
-                      <>
-                        <span
-                          className="mr-2"
-                          style={{ verticalAlign: "text-bottom" }}
-                        >
+                      <Row>
+                        <Col xs={1} style={{ verticalAlign: "text-bottom" }}>
                           <FaCheckSquare />
-                        </span>
-                        <span>{item}</span>
-                      </>
+                        </Col>
+                        <Col xs={10}>{item}</Col>
+                      </Row>
                     )}
                   </p>
                 ) : (

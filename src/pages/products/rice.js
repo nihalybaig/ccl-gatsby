@@ -7,6 +7,7 @@ import BreadcrumbComponent from "../../components/Breadcrumb"
 import { Col, Row } from "react-bootstrap"
 // import ProductItemDetails from "../../components/ProductItemDetails"
 import CustomListWithImage from "../../components/CustomListWithImage"
+import CustomListWith3Image from "../../components/CustomListWith3Image"
 
 const GalleryPage = () => {
   const title = "Rice"
@@ -19,8 +20,8 @@ const GalleryPage = () => {
         <Row>
           <Col lg={12} className="py-1">
             <h2 className="text-center">{title}</h2>
-            <CustomListWithImage
-              title="Basmati Rice(1121 White Sella)"
+            <CustomListWith3Image
+              title="Basmati Rice"
               items={[
                 "Grain Length (mm) 8.20mm+",
                 "Nature (Raw/Parboiled/Steam) Parboiled",
@@ -47,6 +48,7 @@ const GalleryPage = () => {
                 "Export Certifications Available",
                 "Mode of Transport (Logistics) Air, Road, Rail, Sea",
                 "Product Sample Available",
+                "Brand Name Continental ®",
                 "Black Matter Nil",
                 "Insects/Weevils Nil",
                 "Port of Loading Sellers Port",
@@ -54,10 +56,14 @@ const GalleryPage = () => {
                 "Payment Terms",
                 "50% Advance. 50% Irrevocable & Verifiable Letter of Credit (LC)",
               ]}
-              img="prod-item-images/Rice (1).jpg"
+              images={[
+                "prod-item-images/Rice (1).jpg",
+                "prod-item-images/Rice (2).jpg",
+                "prod-item-images/Rice (3).jpg",
+              ]}
             />
             <CustomListWithImage
-              title="Non Basmati Rice(IR64)"
+              title="Non Basmati Rice"
               items={[
                 "Grain Length (mm) 6mm+",
                 "Nature (Raw/Parboiled/Steam) Parboiled",
@@ -86,7 +92,7 @@ const GalleryPage = () => {
                 "Export Certifications Available",
                 "Mode of Transport (Logistics) Air, Road, Rail, Sea",
                 "Product Sample Available",
-                "Brand Name SADR fresh ®",
+                "Brand Name Continental ®",
                 "Black Matter Nil",
                 "Insects/Weevils Nil",
                 "Port of Loading Sellers Port",
@@ -94,7 +100,7 @@ const GalleryPage = () => {
                 "Payment Terms",
                 "50% Advance. 50% Irrevocable & Verifiable Letter of Credit (LC)",
               ]}
-              img="prod-item-images/Rice (2).jpg"
+              img="prod-item-images/Rice (3).jpg"
             />
             {/* <ProductItemDetails productType={title} /> */}
           </Col>

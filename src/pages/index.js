@@ -8,7 +8,7 @@ import HomePageCarousel from "../components/HomePageCarousel"
 // import FadingDiv from "../components/FadingDiv"
 // import SlideBox from "../components/SlideBox"
 import { Col, Row } from "react-bootstrap"
-import IconTileRow from "../components/iconcard"
+// import IconTileRow from "../components/iconcard"
 // import InfoSection from "../components/InfoSection"
 import { Divider } from "../components/CommonComponents"
 import BrandCarousel from "../components/BrandCarousel"
@@ -112,13 +112,13 @@ const IndexPage = () => (
       </Row>
       <Divider />
 
-      <Row>
+      {/* <Row>
         <Col lg={12} className="py-1">
           <h2 className="text-center mb-4">Best in Class</h2>
           <IconTileRow />
         </Col>
       </Row>
-      <Divider />
+      <Divider /> */}
       <Row>
         <Col lg={12} className="py-1">
           <h2 className="text-center mb-5">Our Suppliers</h2>

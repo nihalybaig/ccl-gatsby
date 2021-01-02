@@ -6,7 +6,8 @@ import { FacebookIcon, TwitterIcon, WhatsappIcon } from "react-share"
 const twitter = "twitter.com"
 const facebook = "facebook.com"
 const instagram = "instagram.com"
-const whatsapp = "whatsapp.com"
+const whatsapp =
+  "https://wa.me/966549323798?text=CCL%20Website%20Message%20:%20"
 
 const SocialMediaBar = () => (
   <div className="row py-3 d-flex align-items-center im-container">

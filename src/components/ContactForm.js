@@ -92,7 +92,7 @@ export default function ContactForm() {
                   <FaGlobe style={{ margin: `0 5px 2px 1px` }} />
                   <strong>Continental Company Ltd.</strong>
                   <br />
-                  Continental FOODS Division
+                  C.R. : 2050133248
                   <br />
                   P O Box 1973, Dammam 34271
                   <br />
@@ -105,7 +105,7 @@ export default function ContactForm() {
                 (123) 456-7890 <br />
                 (123) 456-7890 <br />
                 <br />
-                <a href="https://wa.me/919701318468?text=CCL%20Website%20Message%20:%20">
+                <a href="https://wa.me/966549323798?text=CCL%20Website%20Message%20:%20">
                   <strong>Whatsapp</strong>
                 </a>{" "}
                 <br />
@@ -113,7 +113,7 @@ export default function ContactForm() {
                 <AiOutlineMail style={{ margin: `0 5px 2px 1px` }} />
                 <strong>Email ID</strong>
                 <br />
-                <a href="mailto:#">first.last@example.com</a>
+                <a href="mailto:#">info@cclarabia.com</a>
                 <br />
               </form>
             </SlideBox>

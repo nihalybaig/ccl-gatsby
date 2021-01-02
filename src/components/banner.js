@@ -6,7 +6,7 @@ import { useMediaQuery } from "beautiful-react-hooks"
 import { Link } from "gatsby"
 
 const email = "info@cclarabia.com"
-const phone = "9876543210"
+const phone = "+966 (13) 8981811"
 
 const Banner = () => {
   const isLarge = useMediaQuery("(min-width:650px)")
