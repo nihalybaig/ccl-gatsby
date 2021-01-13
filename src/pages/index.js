@@ -4,7 +4,7 @@ import React from "react"
 import Layout from "../components/layout"
 // import Image from "../components/image"
 import SEO from "../components/seo"
-import HomePageCarousel from "../components/HomePageCarousel"
+// import HomePageCarousel from "../components/HomePageCarousel"
 // import FadingDiv from "../components/FadingDiv"
 // import SlideBox from "../components/SlideBox"
 import { Col, Row } from "react-bootstrap"
@@ -14,12 +14,14 @@ import { Divider } from "../components/CommonComponents"
 import BrandCarousel from "../components/BrandCarousel"
 import CustomParaList from "../components/CustomParaList"
 import QualitiesCards from "../components/QualitiesCards"
+import HomePageVideo from "../components/HomePageVideo"
 // import InfoSection from "../components/InfoSection"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <HomePageCarousel />
+    {/* <HomePageCarousel /> */}
+    <HomePageVideo />
     <div className="im-container">
       <div className="mx-2 my-3 px-1">
         <div className="my-2 py-2">
